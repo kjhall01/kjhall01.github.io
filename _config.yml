@@ -36,13 +36,18 @@ google:
   #verify:
   #ad-client:
   #ad-slot:
-#bing-verify:
-#email:              weiming.pennstate@outlook.com
-#twitter:            username
 facebook:           gavin.hu.9887
 github-url:         https://github.com/Weiming-Hu
-#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 linkedin:           weiming-hu-607995117
+youtube-channel:    UCbzWw12qQQTON5nDs7Rn4XQ
+researchgate:       https://www.researchgate.net/profile/Weiming_Hu5
+orcid:              https://orcid.org/0000-0003-4501-1435
+gitlab:             https://gitlab.com/Weiming-Hu
+
+#bing-verify:
+#email:              
+#twitter:            username
+#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #xing:              username
 #instagram:         username
 #lastfm:            username
@@ -53,7 +58,6 @@ linkedin:           weiming-hu-607995117
 #steam:             username
 #dribbble:          username
 #youtube:           username
-#youtube-channel:   channel
 #soundcloud:        username
 #weibo:             username
 #flickr:            username
@@ -62,11 +66,6 @@ linkedin:           weiming-hu-607995117
 #xmpp:              username@server.com
 #hackernews:        username
 
-# In need of
-# nextcloud
-# researchgate
-# candyjar
-# gitlab
 
 # Gems
 gems:
