@@ -1,0 +1,152 @@
+[
+    {
+        "definitions" : [
+            {
+                "column" : 8,
+                "file" : "/Users/wuh20/github/Weiming-Hu.github.io/assets/data-for-posts/2018-03-27-strongly-connected-components/src/SCC_solution_1.cpp",
+                "kind" : 3,
+                "line" : 19,
+                "name" : "SCC",
+                "parent_name" : "",
+                "usr" : "c:@N@solution_1@S@SCC"
+            },
+            {
+                "column" : 2,
+                "file" : "/Users/wuh20/github/Weiming-Hu.github.io/assets/data-for-posts/2018-03-27-strongly-connected-components/src/SCC_solution_1.cpp",
+                "kind" : 6,
+                "line" : 41,
+                "name" : "DFS_recursive(const vector<value_type> &, const vector<value_type> &, value_type, value_type, solution_1::SCC &)",
+                "parent_name" : "",
+                "usr" : "c:@N@solution_1@F@DFS_recursive#&1$@N@std@N@__1@C@vector>#I#$@N@std@N@__1@C@allocator>#I#S0_#I#I#&$@N@solution_1@S@SCC#"
+            },
+            {
+                "column" : 15,
+                "file" : "/Users/wuh20/github/Weiming-Hu.github.io/assets/data-for-posts/2018-03-27-strongly-connected-components/src/SCC_solution_1.cpp",
+                "kind" : 6,
+                "line" : 72,
+                "name" : "DFS_recursive_R(NumericVector, NumericVector, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@DFS_recursive_R#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#S0_#I#"
+            },
+            {
+                "column" : 2,
+                "file" : "/Users/wuh20/github/Weiming-Hu.github.io/assets/data-for-posts/2018-03-27-strongly-connected-components/src/SCC_solution_1.cpp",
+                "kind" : 6,
+                "line" : 102,
+                "name" : "SCC_solution_1(NumericVector, NumericVector, bool)",
+                "parent_name" : "",
+                "usr" : "c:@F@SCC_solution_1#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#S0_#b#"
+            }
+        ],
+        "file" : "/Users/wuh20/github/Weiming-Hu.github.io/assets/data-for-posts/2018-03-27-strongly-connected-components/src/SCC_solution_1.cpp",
+        "file_last_write" : 1529948806
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 8,
+                "file" : "/Users/wuh20/github/Weiming-Hu.github.io/assets/data-for-posts/2018-03-27-strongly-connected-components/src/SCC_solution_2.cpp",
+                "kind" : 3,
+                "line" : 22,
+                "name" : "SCC",
+                "parent_name" : "",
+                "usr" : "c:@N@solution_2@S@SCC"
+            },
+            {
+                "column" : 2,
+                "file" : "/Users/wuh20/github/Weiming-Hu.github.io/assets/data-for-posts/2018-03-27-strongly-connected-components/src/SCC_solution_2.cpp",
+                "kind" : 6,
+                "line" : 31,
+                "name" : "DFS_nonrecursive(const vector<value_type> &, const vector<value_type> &, value_type, value_type, solution_2::SCC &)",
+                "parent_name" : "",
+                "usr" : "c:@N@solution_2@F@DFS_nonrecursive#&1$@N@std@N@__1@C@vector>#I#$@N@std@N@__1@C@allocator>#I#S0_#I#I#&$@N@solution_2@S@SCC#"
+            },
+            {
+                "column" : 2,
+                "file" : "/Users/wuh20/github/Weiming-Hu.github.io/assets/data-for-posts/2018-03-27-strongly-connected-components/src/SCC_solution_2.cpp",
+                "kind" : 6,
+                "line" : 93,
+                "name" : "SCC_solution_2(NumericVector, NumericVector, bool)",
+                "parent_name" : "",
+                "usr" : "c:@F@SCC_solution_2#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#S0_#b#"
+            }
+        ],
+        "file" : "/Users/wuh20/github/Weiming-Hu.github.io/assets/data-for-posts/2018-03-27-strongly-connected-components/src/SCC_solution_2.cpp",
+        "file_last_write" : 1530013097
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 8,
+                "file" : "/Users/wuh20/github/Weiming-Hu.github.io/assets/data-for-posts/2018-03-27-strongly-connected-components/src/SCC_solution_3.cpp",
+                "kind" : 3,
+                "line" : 24,
+                "name" : "SCC",
+                "parent_name" : "",
+                "usr" : "c:@N@solution_3@S@SCC"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/wuh20/github/Weiming-Hu.github.io/assets/data-for-posts/2018-03-27-strongly-connected-components/src/SCC_solution_3.cpp",
+                "kind" : 6,
+                "line" : 32,
+                "name" : "generate_adjacency_list(const set<value_type, greater<value_type> >, const vector<value_type> &, const vector<value_type> &, vector<vector<value_type> > &)",
+                "parent_name" : "",
+                "usr" : "c:@N@solution_3@F@generate_adjacency_list#1$@N@std@N@__1@C@set>#I#$@N@std@N@__1@S@greater>#I#$@N@std@N@__1@C@allocator>#I#&1$@N@std@N@__1@C@vector>#I#S2_#S3_#&$@N@std@N@__1@C@vector>#S4_#$@N@std@N@__1@C@allocator>#S4_#"
+            },
+            {
+                "column" : 2,
+                "file" : "/Users/wuh20/github/Weiming-Hu.github.io/assets/data-for-posts/2018-03-27-strongly-connected-components/src/SCC_solution_3.cpp",
+                "kind" : 6,
+                "line" : 64,
+                "name" : "DFS_nonrecursive(const vector<value_type> &, const vector<value_type> &, value_type, value_type, solution_3::SCC &)",
+                "parent_name" : "",
+                "usr" : "c:@N@solution_3@F@DFS_nonrecursive#&1$@N@std@N@__1@C@vector>#I#$@N@std@N@__1@C@allocator>#I#S0_#I#I#&$@N@solution_3@S@SCC#"
+            },
+            {
+                "column" : 6,
+                "file" : "/Users/wuh20/github/Weiming-Hu.github.io/assets/data-for-posts/2018-03-27-strongly-connected-components/src/SCC_solution_3.cpp",
+                "kind" : 6,
+                "line" : 113,
+                "name" : "generate_adjacency_list_R(NumericVector, NumericVector)",
+                "parent_name" : "",
+                "usr" : "c:@F@generate_adjacency_list_R#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#S0_#"
+            },
+            {
+                "column" : 15,
+                "file" : "/Users/wuh20/github/Weiming-Hu.github.io/assets/data-for-posts/2018-03-27-strongly-connected-components/src/SCC_solution_3.cpp",
+                "kind" : 6,
+                "line" : 146,
+                "name" : "DFS_nonrecursive_R(NumericVector, NumericVector, int)",
+                "parent_name" : "",
+                "usr" : "c:@F@DFS_nonrecursive_R#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#S0_#I#"
+            },
+            {
+                "column" : 2,
+                "file" : "/Users/wuh20/github/Weiming-Hu.github.io/assets/data-for-posts/2018-03-27-strongly-connected-components/src/SCC_solution_3.cpp",
+                "kind" : 6,
+                "line" : 177,
+                "name" : "SCC_solution_3(NumericVector, NumericVector, bool)",
+                "parent_name" : "",
+                "usr" : "c:@F@SCC_solution_3#$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#S0_#b#"
+            }
+        ],
+        "file" : "/Users/wuh20/github/Weiming-Hu.github.io/assets/data-for-posts/2018-03-27-strongly-connected-components/src/SCC_solution_3.cpp",
+        "file_last_write" : 1530078915
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "/Users/wuh20/github/Weiming-Hu.github.io/assets/data-for-posts/2018-03-27-strongly-connected-components/src/rcpp_hello.cpp",
+                "kind" : 6,
+                "line" : 18,
+                "name" : "rcpp_hello",
+                "parent_name" : "",
+                "usr" : "c:@F@rcpp_hello#"
+            }
+        ],
+        "file" : "/Users/wuh20/github/Weiming-Hu.github.io/assets/data-for-posts/2018-03-27-strongly-connected-components/src/rcpp_hello.cpp",
+        "file_last_write" : 1529895908
+    }
+]

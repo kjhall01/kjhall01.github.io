@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1530080193332.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "80E79CDC",
+    "lastKnownWriteTime" : 1530080292,
+    "last_content_update" : 1530080292434,
+    "path" : "~/github/Weiming-Hu.github.io/assets/data-for-posts/2018-03-27-strongly-connected-components/example/compare_methods.R",
+    "project_path" : "example/compare_methods.R",
+    "properties" : {
+        "cursorPosition" : "10,52",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

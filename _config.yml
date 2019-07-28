@@ -1,14 +1,14 @@
 # Site
-title:              Moon
-bio:                'Minimal, one column jekyll theme.'
-description:        "Moon is a minimal, one column jekyll theme for your blog."
+title:              'Weiming Hu'
+bio:                ''
+description:        "I'm a Ph.D. candidate at Penn State University with a research interest in Geoscience, Computational Algorithm, and High-Performance Computing."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                https://taylantatli.github.io/Moon
+url:                https://weiming-hu.github.io
 
 # Jekyll
 permalink:          /:title/
@@ -26,31 +26,31 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   taylantatli
+disqus_shortname:   weiming-hu
 
 # Social
 # if you don't have any of social below, comment the line.
-#google:
+google:
   #plus:            #username
-  #analytics:
+  analytics:        UA-116139459-1
   #verify:
   #ad-client:
   #ad-slot:
 #bing-verify:
-#email:
-twitter:            username
-facebook:           username
-github-url:         username
+email:              weiming.pennstate@outlook.com
+#twitter:            username
+facebook:           gavin.hu.9887
+github-url:         https://github.com/Weiming-Hu
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-#linkedin:          username
+linkedin:           weiming-hu-607995117
 #xing:              username
-instagram:          username
+#instagram:         username
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'
 #pinterest:         username
 #foursquare:        username
-steam:              username
+#steam:             username
 #dribbble:          username
 #youtube:           username
 #youtube-channel:   channel
