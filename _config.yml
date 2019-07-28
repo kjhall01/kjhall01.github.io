@@ -4,7 +4,7 @@ bio:                ''
 description:        "I'm a Ph.D. candidate at Penn State University with a research interest in Geoscience, Computational Algorithm, and High-Performance Computing."
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/logo.png'
+logo:               'assets/img/logo.jpg'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
@@ -37,7 +37,7 @@ google:
   #ad-client:
   #ad-slot:
 #bing-verify:
-email:              weiming.pennstate@outlook.com
+#email:              weiming.pennstate@outlook.com
 #twitter:            username
 facebook:           gavin.hu.9887
 github-url:         https://github.com/Weiming-Hu
@@ -61,6 +61,12 @@ linkedin:           weiming-hu-607995117
 #keybase:           username
 #xmpp:              username@server.com
 #hackernews:        username
+
+# In need of
+# nextcloud
+# researchgate
+# candyjar
+# gitlab
 
 # Gems
 gems:
