@@ -1,6 +1,6 @@
 ---
-layout: project
-title: All Projects
-excerpt: "A List of Projects"
+layout: research
+title: Research Gallery
+excerpt: "A List of Research"
 comments: false
 ---
