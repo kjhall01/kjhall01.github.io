@@ -1,11 +1,9 @@
 ---
+layout: post
 title: "Unstructured Grid Refinement for Numeric Weather Prediction"
-categories:
-  - Research
-tags:
-  - Unstructured Grid
-  - Numerical Weather Prediction
-  - Analog Ensemble
+excerpt: "Using an unstructured grid for better weather predictions"
+tags: [research, weather predictions, Analog Ensemble]
+comments: true
 last_modified_at: 2018-05-16T17:53:00
 ---
 

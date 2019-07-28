@@ -1,10 +1,9 @@
 ---
+layout: post
 title: "Strongly Connected Components Algorithm Optimized"
-categories:
-  - Research
-tags:
-  - Computation Algorithm
-  - Graph Theory
+excerpt: "A performance comparison of different implementations of Kosaraju's algorithm"
+comments: true
+rags: [research]
 last_modified_at: 2018-06-27T21:13:00
 ---
 

@@ -1,11 +1,9 @@
 ---
+layout: post
 title: "Code Signing GNU GDB on Mac"
-categories:
-  - Programing
-tags:
-  - GDB
-  - NetBeans
-  - Debug
+excerpt: "A small issue with using GNU GDB on Mac"
+tags: [debugging]
+comments: true
 last_modified_at: 2018-03-24T20:00:00
 ---
 

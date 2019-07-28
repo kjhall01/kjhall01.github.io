@@ -1,9 +1,9 @@
 ---
+layout: post
 title: "Plotting with ggplot"
-categories:
-  - Programing
-tags:
-  - R
+excerpt: "Common problems solved with ggplot2 in R"
+comments: true
+tags: [R, ggplot2]
 last_modified_at: 2019-07-04T15:53:00
 ---
 

@@ -1,10 +1,9 @@
 ---
+layout: post
 title: "Deal with Raster and Projection in R"
-categories:
-  - Programing
-tags:
-  - Projection
-  - R
+excerpt: "Coordinate systems and reprojection in R"
+tags: [R, projection]
+comments: true
 last_modified_at: 2018-04-14T21:53:00
 ---
 

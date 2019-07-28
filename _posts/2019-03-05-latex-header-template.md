@@ -1,9 +1,9 @@
 ---
+layout: post
 title: "Latex Header Template"
-categories:
-  - Document
-tags:
-  - Latex
+excerpt: "A convenient header file with a compilation of packages and example usages"
+tags: [Latex]
+comments: true
 last_modified_at: 2019-03-05T14:00:00
 ---
 

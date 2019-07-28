@@ -1,9 +1,9 @@
 ---
+layout: post
 title: "R with Remote Session"
-categories:
-  - Programing
-tags:
-  - Latex
+excerpt: "Setting up a remote R session within a terminal"
+tags: [R]
+comments: true
 last_modified_at: 2019-03-25T11:00:00
 ---
 
