@@ -1,5 +1,6 @@
 ---
 layout: post
+research: true
 title: "Unstructured Grid Refinement for Numeric Weather Prediction"
 excerpt: "Using an unstructured grid for better weather predictions"
 tags: [research, weather predictions, Analog Ensemble]

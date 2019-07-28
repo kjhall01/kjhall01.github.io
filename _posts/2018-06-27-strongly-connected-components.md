@@ -1,5 +1,6 @@
 ---
 layout: post
+research: true
 title: "Strongly Connected Components Algorithm Optimized"
 excerpt: "A performance comparison of different implementations of Kosaraju's algorithm"
 comments: true

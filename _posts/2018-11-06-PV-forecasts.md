@@ -1,5 +1,6 @@
 ---
 layout: post
+research: true
 title: "High Resolution Forecasts of Photovoltaic Energy Production"
 excerpt: "Using Analog Ensemble to forecast photovoltaic energy production on a household level"
 tags: [research, Analog Ensemble]
