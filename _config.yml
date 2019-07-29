@@ -36,14 +36,17 @@ google:
   #verify:
   #ad-client:
   #ad-slot:
-facebook:           gavin.hu.9887
-github-url:         Weiming-Hu
-linkedin:           weiming-hu-607995117
-youtube-channel:    UCbzWw12qQQTON5nDs7Rn4XQ
-researchgate:       https://www.researchgate.net/profile/Weiming_Hu5
-orcid:              https://orcid.org/0000-0003-4501-1435
-gitlab:             https://gitlab.com/Weiming-Hu
 
+scholar:            https://scholar.google.com/citations?user=2xypOLMAAAAJ
+researchgate:       https://www.researchgate.net/profile/Weiming_Hu5
+linkedin:           weiming-hu-607995117
+github-url:         Weiming-Hu
+gitlab:             https://gitlab.com/Weiming-Hu
+soundcloud:         weiminggroove
+
+#orcid:              https://orcid.org/0000-0003-4501-1435
+#facebook:           gavin.hu.9887
+#youtube-channel:   
 #bing-verify:
 #email:              
 #twitter:            username

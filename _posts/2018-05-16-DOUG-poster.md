@@ -18,7 +18,7 @@ A new machine learning based algorithm is proposed to dynamically and automatica
 
 *If it is not displaying normally, you can access the PDF [here](https://weiming-hu.github.io/assets/data-for-posts/2018-05-16-DOUG-poster/poster-DOUG.pdf).*
 
-<object data="https://weiming-hu.github.io/assets/data-for-posts/2018-05-16-DOUG-poster/poster-DOUG.pdf" type="application/pdf" width="100%" height="600px">
+<object data="https://weiming-hu.github.io/assets/data-for-posts/2018-05-16-DOUG-poster/poster-DOUG.pdf" type="application/pdf" width="100%" height="80%">
 <embed src="https://weiming-hu.github.io/assets/data-for-posts/2018-05-16-DOUG-poster/poster-DOUG.pdf">
 This browser does not support PDFs. Please download the PDF to view it: <a href="https://weiming-hu.github.io/assets/data-for-posts/2018-05-16-DOUG-poster/poster-DOUG.pdf">Download PDF</a>.</p>
 </embed>

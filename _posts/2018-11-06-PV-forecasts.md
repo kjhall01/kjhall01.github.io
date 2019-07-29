@@ -20,7 +20,7 @@ This poster studies the temporal predictability of the small-scale photovoltaic 
 
 *If it is not displaying normally, you can access the PDF [here](https://weiming-hu.github.io/assets/data-for-posts/2018-11-06-PV-forecasts/PV-forecasts.pdf).*
 
-<object data="https://weiming-hu.github.io/assets/data-for-posts/2018-11-06-PV-forecasts/PV-forecasts.pdf" type="application/pdf" width="100%" height="600px">
+<object data="https://weiming-hu.github.io/assets/data-for-posts/2018-11-06-PV-forecasts/PV-forecasts.pdf" type="application/pdf" width="100%" height="80%">
 <embed src="https://weiming-hu.github.io/assets/data-for-posts/2018-11-06-PV-forecasts/PV-forecasts.pdf">
 This browser does not support PDFs. Please download the PDF to view it: <a href="https://weiming-hu.github.io/assets/data-for-posts/2018-11-06-PV-forecasts/PV-forecasts.pdf">Download PDF</a>.</p>
 </embed>
