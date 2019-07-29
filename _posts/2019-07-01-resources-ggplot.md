@@ -21,6 +21,7 @@ The following resources can help you get started with `ggplot` in a very efficie
 - The chapter [data visualization](https://r4ds.had.co.nz/data-visualisation.html) talks about the basic ideas and grammars used in not only `ggplot`, but also in graphs in general;
 - The chapter [graphics for communication](https://r4ds.had.co.nz/graphics-for-communication.html) talks about tunning to make better graphs and publication. Some proposals about how to format your graphs appears very provocative.
 - [This tutorial](http://r-statistics.co/ggplot2-Tutorial-With-R.html) covers some practical tunning exercises that might not be included in the previous tutorials.
+- [Be Awesome in ggplot2](http://www.sthda.com/english/wiki/be-awesome-in-ggplot2-a-practical-guide-to-be-highly-effective-r-software-and-data-visualization#at_pco=smlwn-1.0&at_si=5d3f2127c41acabd&at_ab=per-2&at_pos=0&at_tot=1) talks about many examples of using the package with codes. I noticed that many articles directly or indicrectly relate to this article.
 
 To dive deeper into the library and the concept of the graph grammar, please refer to the following list.
 
