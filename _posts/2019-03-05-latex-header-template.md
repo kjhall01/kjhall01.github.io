@@ -19,7 +19,7 @@ You can edit this file from [here](https://github.com/Weiming-Hu/Weiming-Hu.gith
 <script>
 function copyText() {
   /* Get the text field */
-  var copyText = document.getElementsByClassName("highlight")
+  var copyText = document.getElementsByClassName("highlight");
 
   var $temp = $("<textarea>");
   $("body").append($temp);
