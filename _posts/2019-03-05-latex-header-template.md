@@ -37,7 +37,7 @@ function copyText() {
 </div>
 
 ```
-% Version number 0.3.6
+% Version number 0.3.7
 % If you have made any changes, please consider also changing
 % https://github.com/Weiming-Hu/Weiming-Hu.github.io/blob/master/_posts/2019-03-05-latex-header-template.md
 %
@@ -91,6 +91,14 @@ function copyText() {
 % 
 \usepackage{lineno}
 
+% Include the package to deal with breaking URLs
+% 
+% If you want to make the url to break at any character, use the following line
+% \sloppy \url{long-long-long-url}
+% 
+% \usepackage[hyphenbreaks]{breakurl}
+\usepackage[hyphens]{url}
+
 % For tagged hyper-links
 \usepackage[bookmarks, colorlinks, breaklinks, pdfauthor={Weiming Hu},unicode=true]{hyperref}
 
@@ -127,13 +135,6 @@ function copyText() {
 
 % Include the package for accessing the post script standard symbol
 \usepackage{pifont}
-
-% Include the package to deal with breaking URLs
-% 
-% If you want to make the url to break at any character, use the following line
-% \sloppy \url{long-long-long-url}
-\usepackage[hyphenbreaks]{breakurl}
-\usepackage[hyphens]{url}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
