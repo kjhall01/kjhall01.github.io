@@ -19,7 +19,7 @@ You can edit this file from [here](https://github.com/Weiming-Hu/Weiming-Hu.gith
 <script>
 function copyText() {
   /* Get the text field */
-  var copyText = document.getElementsByClassName("highlight")
+  var copyText = document.getElementsByClassName("highlight");
 
   var $temp = $("<textarea>");
   $("body").append($temp);
@@ -37,7 +37,7 @@ function copyText() {
 </div>
 
 ```
-% Version number 0.3.5
+% Version number 0.3.7
 % If you have made any changes, please consider also changing
 % https://github.com/Weiming-Hu/Weiming-Hu.github.io/blob/master/_posts/2019-03-05-latex-header-template.md
 %
@@ -90,6 +90,14 @@ function copyText() {
 % before the text/section where you would like to include line numbers afterwards.
 % 
 \usepackage{lineno}
+
+% Include the package to deal with breaking URLs
+% 
+% If you want to make the url to break at any character, use the following line
+% \sloppy \url{long-long-long-url}
+% 
+% \usepackage[hyphenbreaks]{breakurl}
+\usepackage[hyphens]{url}
 
 % For tagged hyper-links
 \usepackage[bookmarks, colorlinks, breaklinks, pdfauthor={Weiming Hu},unicode=true]{hyperref}
