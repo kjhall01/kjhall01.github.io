@@ -261,6 +261,12 @@ function copyText() {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                Acronyms                                  %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Documentation URL for package glossaries
+% http://tug.ctan.org/macros/latex/contrib/glossaries/glossariesbegin.pdf
+% 
+% Documentation URL for Glossary styles
+% https://www.dickimaw-books.com/gallery/glossaries-styles/
+% 
 % Add acronyms without appearing in the table of content
 % \usepackage[acronym]{glossaries}
 
@@ -269,8 +275,20 @@ function copyText() {
 % the default behavior using the section key-value-option; e.g.,
 % 
 \usepackage[toc, section=section]{glossaries}
+%\usepackage{glossaries-extra-stylemods}
+%\usepackage{glossary-longbooktabs}
+\usepackage{glossaries-extra}
+%\usepackage{glossary-inline}
+\usepackage{glossary-mcols}
 
-\setacronymstyle{long-short}
+\setabbreviationstyle{long-short}
+
+% Choose a style. You can access all available styles 
+% using the URL for GLossary styles.
+%
+% \setglossarystyle{inline}
+% \setglossarystyle{index}
+\setglossarystyle{mcolindex}
 
 % Topic: Models and Techniques
 \newacronym{GFS}{GFS}{Global Forecasts System}
