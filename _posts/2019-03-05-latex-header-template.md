@@ -37,7 +37,7 @@ function copyText() {
 </div>
 
 ```
-% Version number 0.3.8
+% Version number 0.4.0
 % If you have made any changes, please consider also changing
 % https://github.com/Weiming-Hu/Weiming-Hu.github.io/blob/master/_posts/2019-03-05-latex-header-template.md
 %
@@ -89,7 +89,17 @@ function copyText() {
 % \linenumbers
 % before the text/section where you would like to include line numbers afterwards.
 % 
-\usepackage{lineno}
+% \usepackage{lineno}
+% 
+% If you do not want line numbers at each line, you can use the following code
+% which only add line numbers every 5 lines.
+% 
+\usepackage[modulo]{lineno}
+%
+% If you want to further tweak how many lines between two line numbers, you can 
+% specify the following when you are using the modulo argument.
+%
+\modulolinenumbers[2]
 
 % Include the package to deal with breaking URLs
 % 
