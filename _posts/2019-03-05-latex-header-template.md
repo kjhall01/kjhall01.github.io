@@ -37,7 +37,7 @@ function copyText() {
 </div>
 
 ```
-% Version number 0.3.7
+% Version number 0.3.8
 % If you have made any changes, please consider also changing
 % https://github.com/Weiming-Hu/Weiming-Hu.github.io/blob/master/_posts/2019-03-05-latex-header-template.md
 %
@@ -251,8 +251,15 @@ function copyText() {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                Acronyms                                  %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Add acronyms
-\usepackage[acronym]{glossaries} 
+% Add acronyms without appearing in the table of content
+% \usepackage[acronym]{glossaries}
+
+% By default, glossaries will appear as chapters if the document class
+% features the \chapter command and as sections otherwise. You can change
+% the default behavior using the section key-value-option; e.g.,
+% 
+\usepackage[toc, section=section]{glossaries}
+
 \setacronymstyle{long-short}
 
 % Topic: Models and Techniques
