@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Plotting with ggplot"
-excerpt: "Common problems solved with ggplot2 in R"
+title: "ggplot Example 1"
+excerpt: "Examples of ggplot for statistical distribution map and rasters"
 comments: true
 tags: [R, ggplot2]
 last_modified_at: 2019-07-04T15:53:00
@@ -9,16 +9,15 @@ last_modified_at: 2019-07-04T15:53:00
 
 <!-- vim-markdown-toc GitLab -->
 
-* [Introduction](#introduction)
-* [The Grand Template](#the-grand-template)
-* [Parameter Tunning](#parameter-tunning)
-* [Facetting](#facetting)
-    * [Native Solutions](#native-solutions)
-    * [External Packages](#external-packages)
-* [Plotting Rasters](#plotting-rasters)
-* [Plotting Spatial Objects](#plotting-spatial-objects)
-* [References](#references)
-* [To Be Continued](#to-be-continued)
+- [Introduction](#introduction)
+- [The Grand Template](#the-grand-template)
+- [Parameter Tunning](#parameter-tunning)
+- [Facetting](#facetting)
+  - [Native Solutions](#native-solutions)
+  - [External Packages](#external-packages)
+- [Plotting Rasters](#plotting-rasters)
+- [References](#references)
+- [To Be Continued](#to-be-continued)
 
 <!-- vim-markdown-toc -->
 
@@ -99,7 +98,7 @@ print(p)
 # ggsave('ggnotes-01.png', device = 'png', width = 3.5, height = 3.5)
 ```
 
-![Scatter plot](https://weiming-hu.github.io/assets/data-for-posts/2019-07-04-ggplot-notes/ggnotes-01.png)
+![Scatter plot](https://weiming-hu.github.io/assets/data-for-posts/ggplot-example-plots/ggnotes-01.png)
 
 The above snippet of code involves with several topics:
 
@@ -250,7 +249,7 @@ ggdraw(p.combine)
 ggsave('ggnotes-02.png', device = 'png', width = 8, height = 8)
 ```
 
-![Distribution plot](https://weiming-hu.github.io/assets/data-for-posts/2019-07-04-ggplot-notes/ggnotes-02.png)
+![Distribution plot](https://weiming-hu.github.io/assets/data-for-posts/ggplot-example-plots/ggnotes-02.png)
 
 The above codes involve the following topics:
 
@@ -269,71 +268,6 @@ Some helpful resources and tips for `cowplot` are as follow:
 - [Introduction to cowplot](https://cran.r-project.org/web/packages/cowplot/vignettes/introduction.html)
 - [Arranging plots](https://cran.r-project.org/web/packages/cowplot/vignettes/plot_grid.html)
 - [How to change colors automatically and manually](http://www.sthda.com/english/wiki/ggplot2-colors-how-to-change-colors-automatically-and-manually)
-
-## Plotting Spatial Objects
-
-My code for this section is compiled from the tutorial, [making maps with ggplot2](http://eriqande.github.io/rep-res-web/lectures/making-maps-with-R.html). This tutorial covers some basic topics I would like to do for mapping with `ggplot`.
-
-```
-library(ggplot2)
-library(cowplot)
-library(ggmap)
-
-# Read data
-pa <- map_data('county')
-
-# Subset data to include only Pennsylvania
-pa <- subset(pa, region == 'pennsylvania')
-
-p1 <- ggplot(data = pa, mapping = aes(
-	x = long, y = lat, group = group)) +
-	
-	# Plot the base layer of polygon
-	geom_polygon(fill = NA, color = 'black') +
-	
-	# Overlay another polygon
-	geom_polygon(data = subset(pa, subregion == 'centre'),
-							 fill = 'green') +
-	
-	# Change axis names
-	labs(x = 'Longitude', y = 'Latitude') +
-	
-	# Don't plot legend
-	guides(fill = 'none') +
-	
-	# Set coordinate ratio and limits
-	coord_fixed(xlim = c(-79, -76.5), ylim = c(40.5, 41.5), ratio = 1.3) +
-	
-	# Use this blank theme from ggmap/cowplot
-	# theme_nothing()
-	theme_bw()
-
-# Create bounding box
-bbox <- make_bbox(lon = pa$long, lat = pa$lat)
-
-# Download maps for the bounding box region
-map <- get_map(location = bbox, maptype = 'terrain', source = 'osm', zoom = 7)
-
-# Overlay maps and polygons
-p2 <- ggmap(map) + geom_polygon(data = pa, mapping = aes(
-	x = long, y = lat, group = group), fill = NA, color = 'black') +
-	labs(x = 'Longitude', y = 'Latitude')
-
-# Use the plot function from cowplot to combine multiple ggplot figures
-p <- plot_grid(p1, p2, ncol = 1, align = 'h')
-
-print(p)
-ggsave('ggnotes-03.png', p, width = 5, height = 6)
-
-```
-
-![Map](https://weiming-hu.github.io/assets/data-for-posts/2019-07-04-ggplot-notes/ggnotes-03.png)
-
-The above codes cover the following topics:
-
-- reading data from the package `maps`;
-- plotting and overlaying polygons and maps;
-- setting coordinate ratio and limits;
 
 ## References
 
