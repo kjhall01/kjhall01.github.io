@@ -37,7 +37,7 @@ function copyText() {
 </div>
 
 ```
-% Version number 0.4.0
+% Version number 0.4.1
 % If you have made any changes, please consider also changing
 % https://github.com/Weiming-Hu/Weiming-Hu.github.io/blob/master/_posts/2019-03-05-latex-header-template.md
 %
@@ -274,14 +274,21 @@ function copyText() {
 % features the \chapter command and as sections otherwise. You can change
 % the default behavior using the section key-value-option; e.g.,
 % 
+\usepackage[toc, section=section, acronym]{glossaries}
 \usepackage[toc, section=section]{glossaries}
+
 %\usepackage{glossaries-extra-stylemods}
 %\usepackage{glossary-longbooktabs}
-\usepackage{glossaries-extra}
+%\usepackage{glossaries-extra}
 %\usepackage{glossary-inline}
 \usepackage{glossary-mcols}
 
-\setabbreviationstyle{long-short}
+% If you are specifying acronym for package glossaries,
+% use this to automatically spell out the acronym when 
+% first used so you do not need to keep track of them.
+%
+\setacronymstyle{long-short}
+%\setabbreviationstyle{long-short}
 
 % Choose a style. You can access all available styles 
 % using the URL for GLossary styles.
@@ -291,7 +298,8 @@ function copyText() {
 \setglossarystyle{mcolindex}
 
 % Topic: Models and Techniques
-\newacronym{GFS}{GFS}{Global Forecasts System}
+\newacronym{GFS}{GFS}{Global Forecast System}
+\newacronym{GEFS}{GEFS}{Global Ensemble Forecast System}
 \newacronym{ECMWF}{ECMWF}{European Center for Medium Weather Forecasting}
 \newacronym{AnEn}{AnEn}{Analog Ensemble}
 \newacronym{PAnEn}{PAnEn}{Parallel Analog Ensemble}
