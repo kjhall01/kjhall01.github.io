@@ -37,7 +37,7 @@ function copyText() {
 </div>
 
 ```
-% Version number 0.4.1
+% Version number 0.4.2
 % If you have made any changes, please consider also changing
 % https://github.com/Weiming-Hu/Weiming-Hu.github.io/blob/master/_posts/2019-03-05-latex-header-template.md
 %
@@ -180,6 +180,10 @@ function copyText() {
 %
 % \printbibliography
 %
+% If you want the bib to be included in the table of content, you
+% can instead use the following option.
+%
+% \printbibliography[heading=bibintoc,title={References}]
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -307,6 +311,7 @@ function copyText() {
 \newacronym{PAN}{PAN}{Persistence Analog}
 \newacronym{GCM}{GCM}{General Circulation Model}
 \newacronym{NAM}{NAM}{North American Mesoscale Model}
+\newacronym{WRF}{WRF}{Weather Research and Forecasting}
 \newacronym{SSE}{SSE}{Search Space Extension}
 \newacronym{EA}{EA}{Evolutionary Analog}
 \newacronym{GA}{GA}{Genetic Algorithm}
@@ -317,6 +322,10 @@ function copyText() {
 \newacronym{HF}{HF}{Heuristic Filter}
 \newacronym{LOO}{LOO}{Leave-One-Out}
 \newacronym{SS}{SS}{Schaake Shuffle}
+\newacronym{SSI}{SSI}{Spectral Statistical Interpolation}
+\newacronym{GSI}{GSI}{Gridpoint Statistical Interpolation}
+\newacronym{UMAP}{UMAP}{Uniform Manifold Approximation and Projection}
+\newacronym{SOM}{SOM}{Self-Organizing Map}
 
 
 % Topic: Organizations and Projects
@@ -330,6 +339,9 @@ function copyText() {
 \newacronym{IPCC}{IPCC}{International Panel on Climate Change}
 \newacronym{ASOS}{ASOS}{Automated Surface Observing System}
 \newacronym{NCAR}{NCAR}{National Center for Atmospheric Research}
+\newacronym{GISS}{GISS}{Goddard Institute for Space Studies}
+\newacronym{RCP}{RCP}{Representative Concentration Pathway}
+\newacronym{WRCP}{WRCP}{World Climate Research Programme}
 
 % Topic: Metrics
 \newacronym{SVI}{SVI}{Social Vulnerability Index}
@@ -342,6 +354,7 @@ function copyText() {
 \newacronym{CRPS}{CRPS}{Continuous Rank Probability Score}
 \newacronym{RPS}{RPS}{Rank Probability Score}
 \newacronym{MAE}{MAE}{Mean Absolute Error}
+\newacronym{Brier}{Brier}{Brier Score}
 
 % Topic: Renewables
 \newacronym{PV}{PV}{Photovoltaic}
@@ -378,6 +391,7 @@ function copyText() {
 \newacronym{PDO}{PDO}{Pacific Decadal Oscillation}
 \newacronym{MOS}{MOS}{Model Output Statistics}
 \newacronym{PNA}{PNA}{Pacific/North American}
+\newacronym{GHG}{GHG}{Greenhouse gas}
 
 
 % To include glossary in the document, keep the following first line,
