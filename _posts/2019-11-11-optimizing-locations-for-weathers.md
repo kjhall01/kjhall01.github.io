@@ -1,5 +1,6 @@
 ---
 layout: post
+research: true
 title: "Optimal Locations in Weather Predictions"
 excerpt: "Using a Genetic Algorithm for Optimal Location Finding in Weather Predictions"
 comments: true
