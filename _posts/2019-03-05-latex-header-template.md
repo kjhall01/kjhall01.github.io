@@ -37,7 +37,7 @@ function copyText() {
 </div>
 
 ```
-% Version number 0.4.2
+% Version number 0.4.3
 % If you have made any changes, please consider also changing
 % https://github.com/Weiming-Hu/Weiming-Hu.github.io/blob/master/_posts/2019-03-05-latex-header-template.md
 %
@@ -145,6 +145,9 @@ function copyText() {
 
 % Include the package for accessing the post script standard symbol
 \usepackage{pifont}
+
+% Include the package for subfigures
+\usepackage{subfigure}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
