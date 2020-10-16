@@ -4,7 +4,6 @@ title: "Latex Header Template"
 excerpt: "A convenient header file with a compilation of packages and example usages"
 tags: [Latex]
 comments: true
-last_modified_at: 2019-03-05T14:00:00
 ---
 
 <link rel="stylesheet" href="https://formden.com/static/assets/demos/bootstrap-iso/bootstrap-iso/bootstrap-iso.css">
@@ -14,7 +13,7 @@ To avoid creating the Latex header every time I start a project, I tend to keep 
 - Various packages with comments for their usage;
 - Predefined commands and acronyms;
 
-You can edit this file from [here](https://github.com/Weiming-Hu/Weiming-Hu.github.io/blob/master/_posts/2019-03-05-latex-header-template.md) if you have the proper permission.
+You can edit this files from [here](https://github.com/Weiming-Hu/Weiming-Hu.github.io/blob/master/_posts/2019-03-05-latex-header-template.md) if you have the proper permission.
 
 <script>
 function copyText() {
@@ -32,18 +31,20 @@ function copyText() {
 }  
 </script>
 
+### Header
+
 <div class="bootstrap-iso">
 <button onclick="copyText()" type="button" class="btn btn-success">Copy header contents</button>
 </div>
 
 ```
-% Version number 0.4.4
+% Version number 0.5.0
 % If you have made any changes, please consider also changing
 % https://github.com/Weiming-Hu/Weiming-Hu.github.io/blob/master/_posts/2019-03-05-latex-header-template.md
 %
 % The MIT License (MIT)
 % 
-% Copyright (c) 2019 Weiming Hu
+% Copyright (c) 2020 Weiming Hu
 % 
 % Permission is hereby granted, free of charge, to any person obtaining a copy
 % of this software and associated documentation files (the "Software"), to deal
@@ -301,6 +302,75 @@ function copyText() {
 % \setglossarystyle{index}
 \setglossarystyle{mcolindex}
 
+% To include glossary in the document, keep the following first line,
+% and add the second line into your document where you would
+% like the glossary to be inserted.
+% \makeglossaries
+% \printglossaries
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                        Command Definitions                               %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Define commands that come in handy
+\newcommand*{\Fig}[1]{Figure~\ref{#1}}
+\newcommand*{\Figs}[1]{Figures~\ref{#1}}
+\newcommand*{\Table}[1]{Table~\ref{#1}}
+\newcommand*{\Tables}[1]{Tables~\ref{#1}}
+\newcommand*{\Eqr}[1]{(\ref{#1})}
+\newcommand*{\Eq}[1]{Equation~(\ref{#1})}
+\newcommand*{\Eqs}[1]{Equations~(\ref{#1})}
+\newcommand*{\Sect}[1]{Section~\ref{#1}}
+\newcommand*{\Sects}[1]{Sections~\ref{#1}}
+\newcommand*{\Alg}[1]{Algorithm~\ref{#1}}
+
+% Commands for providing notes, comments, ...
+\newcommand*{\weimingNote}[1]{\textbf{\textcolor{red}{#1}}}
+
+% If you have made any changes, please consider also changing
+% https://github.com/Weiming-Hu/Weiming-Hu.github.io/blob/master/_posts/2019-03-05-latex-header-template.md
+%
+
+% THE END
+```
+
+### Glossaries
+
+<div class="bootstrap-iso">
+<button onclick="copyText()" type="button" class="btn btn-success">Copy acronyms</button>
+</div>
+
+```
+% Version number 0.0.0
+% If you have made any changes, please consider also changing
+% https://github.com/Weiming-Hu/Weiming-Hu.github.io/blob/master/_posts/2019-03-05-latex-header-template.md
+%
+% The MIT License (MIT)
+% 
+% Copyright (c) 2020 Weiming Hu
+% 
+% Permission is hereby granted, free of charge, to any person obtaining a copy
+% of this software and associated documentation files (the "Software"), to deal
+% in the Software without restriction, including without limitation the rights
+% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+% copies of the Software, and to permit persons to whom the Software is
+% furnished to do so, subject to the following conditions:
+% 
+% The above copyright notice and this permission notice shall be included in all
+% copies or substantial portions of the Software.
+% 
+% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+% SOFTWARE.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                Acronyms                                  %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 % Topic: Models and Techniques
 \newacronym{GFS}{GFS}{Global Forecast System}
 \newacronym{GEFS}{GEFS}{Global Ensemble Forecast System}
@@ -393,36 +463,6 @@ function copyText() {
 \newacronym{PNA}{PNA}{Pacific/North American}
 \newacronym{GHG}{GHG}{Greenhouse gas}
 
-
-% To include glossary in the document, keep the following first line,
-% and add the second line into your document where you would
-% like the glossary to be inserted.
-% \makeglossaries
-% \printglossaries
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%                        Command Definitions                               %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Define commands that come in handy
-\newcommand*{\Fig}[1]{Figure~\ref{#1}}
-\newcommand*{\Figs}[1]{Figures~\ref{#1}}
-\newcommand*{\Table}[1]{Table~\ref{#1}}
-\newcommand*{\Tables}[1]{Tables~\ref{#1}}
-\newcommand*{\Eqr}[1]{(\ref{#1})}
-\newcommand*{\Eq}[1]{Equation~(\ref{#1})}
-\newcommand*{\Eqs}[1]{Equations~(\ref{#1})}
-\newcommand*{\Sect}[1]{Section~\ref{#1}}
-\newcommand*{\Sects}[1]{Sections~\ref{#1}}
-\newcommand*{\Alg}[1]{Algorithm~\ref{#1}}
-
-% Commands for providing notes, comments, ...
-\newcommand*{\weimingNote}[1]{\textbf{\textcolor{red}{#1}}}
-
-% If you have made any changes, please consider also changing
-% https://github.com/Weiming-Hu/Weiming-Hu.github.io/blob/master/_posts/2019-03-05-latex-header-template.md
-%
-
 % THE END
-
 ```
+
