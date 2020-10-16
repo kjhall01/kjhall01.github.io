@@ -27,7 +27,7 @@ function copyText() {
   $temp.remove();
 
   /* Alert the copied text */
-  alert("Header contents are copied!");
+  alert("The content has been copied!");
 }  
 </script>
 
