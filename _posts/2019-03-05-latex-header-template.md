@@ -16,13 +16,13 @@ To avoid creating the Latex header every time I start a project, I tend to keep 
 You can edit this files from [here](https://github.com/Weiming-Hu/Weiming-Hu.github.io/blob/master/_posts/2019-03-05-latex-header-template.md) if you have the proper permission.
 
 <script>
-function copyText() {
+function copyText(region_id) {
   /* Get the text field */
   var copyText = document.getElementsByClassName("highlight");
 
   var $temp = $("<textarea>");
   $("body").append($temp);
-  $temp.val(copyText[0].innerText).select();
+  $temp.val(copyText[region_id].innerText).select();
   document.execCommand("copy");
   $temp.remove();
 
@@ -34,7 +34,7 @@ function copyText() {
 ### Header
 
 <div class="bootstrap-iso">
-<button onclick="copyText()" type="button" class="btn btn-success">Copy header contents</button>
+<button onclick="copyText(0)" type="button" class="btn btn-success">Copy header contents</button>
 </div>
 
 ```
@@ -337,7 +337,7 @@ function copyText() {
 ### Glossaries
 
 <div class="bootstrap-iso">
-<button onclick="copyText()" type="button" class="btn btn-success">Copy acronyms</button>
+<button onclick="copyText(2)" type="button" class="btn btn-success">Copy acronyms</button>
 </div>
 
 ```
