@@ -13,7 +13,16 @@ To avoid creating the Latex header every time I start a project, I tend to keep 
 - Various packages with comments for their usage;
 - Predefined commands and acronyms;
 
-You can edit this files from [here](https://github.com/Weiming-Hu/Weiming-Hu.github.io/blob/master/_posts/2019-03-05-latex-header-template.md) if you have the proper permission.
+Click the following links to go to the section quickly.
+
+<!-- vim-markdown-toc GFM -->
+
+* [Header](#header)
+* [Glossaries](#glossaries)
+
+<!-- vim-markdown-toc -->
+
+You can edit these files [here](https://github.com/Weiming-Hu/Weiming-Hu.github.io/blob/master/_posts/2019-03-05-latex-header-template.md) if you have the proper permission.
 
 <script>
 function copyText(region_id) {
