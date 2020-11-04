@@ -373,7 +373,7 @@ function copyText(region_id) {
 % Commands for providing notes, comments, ...
 \newcommand*{\weimingNote}[1]{\textbf{\textcolor{red}{#1}}}
 
-# Commands for texts
+% Commands for texts
 \newcommand*{\elnino}{El Ni\~no }
 
 % If you have made any changes, please consider also changing
