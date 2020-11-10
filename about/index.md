@@ -6,16 +6,16 @@ date: 2020-11-10
 comments: false
 ---
 
-<img src="https://weiming-hu.github.io/assets/img/logo_sun.jpg" alt="Weiming Hu">
+<img src="https://weiming-hu.github.io/assets/img/logo.jpg" alt="Weiming Hu" style="width:400px !important">
 
-### Research Interest
+## Research Interest
 
 I'm currently a Ph.D. candidate under the supervision of [Dr. Guido Cervone](https://www.geog.psu.edu/directory/guido-cervone) in the [Geoinformatics and Earth Observation Laboratory](http://geoinf.psu.edu/). I conduct a multidisciplinary research in the area of Geosciences, Data Sciences, and High-Performance Computing. My primary research interest concerns the application of learning algorithms and distributed computing technologies to ensemble modeling and uncertainty quantification, specifically in ensemble forecasts and renewable energy production assessment.
 
 - [CV](https://weiming-hu.github.io/assets/cv/Hu-Weiming-CV.pdf)
 - [A list of my research](https://weiming-hu.github.io/research/)
 
-### Programming
+## Programming
 
 I have been actively developing and maintaining the following packages and code repositories. They are developed during my current and previous courses of research. Some of them were converted into packages for the broader research community.
 
