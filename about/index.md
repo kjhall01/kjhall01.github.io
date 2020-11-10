@@ -2,19 +2,25 @@
 layout: page
 title: About Me
 tags: [about]
-date: 2019-07-28
+date: 2020-11-10
 comments: false
 ---
 
-<img src="https://weiming-hu.github.io/assets/img/logo-EMS.jpg" alt="Penn State Earth and Mineral Science" style="width:300px !important">
-<img src="https://weiming-hu.github.io/assets/img/logo-ICS.png" alt="Penn State Institute of CyberScience" style="width:300px !important">
+<img src="https://weiming-hu.github.io/assets/img/logo_sun.jpg" alt="Weiming Hu">
 
-I'm a Ph.D. candidate of [The Geoinformatics and Earth Observation Laboratory (GEOlab)](http://geoinf.psu.edu/) in [The Department of Geography](https://www.geog.psu.edu/) at [Penn State University](http://www.psu.edu/) focusing on Geoscience, Computational Algorithm, and High-Performance Computing.
+### Research Interest
 
-I received a Bachelor in Engineering from [Wuhan University](https://en.whu.edu.cn/) majoring in Remote Sensing and GIScience in 2016 and an Master of Science from [Penn State](https://www.psu.edu/) majoring in Geography in 2018. Now I'm continuing my Ph.D. study in uncertainty quantification for photovoltaic solar energy production forecast.
+I'm currently a Ph.D. candidate under the supervision of [Dr. Guido Cervone](https://www.geog.psu.edu/directory/guido-cervone) in the [Geoinformatics and Earth Observation Laboratory](http://geoinf.psu.edu/). I conduct a multidisciplinary research in the area of Geosciences, Data Sciences, and High-Performance Computing. My primary research interest concerns the application of learning algorithms and distributed computing technologies to ensemble modeling and uncertainty quantification, specifically in ensemble forecasts and renewable energy production assessment.
 
-I have been actively developing and maintaining the following packages:
+- [CV](https://weiming-hu.github.io/assets/cv/Hu-Weiming-CV.pdf)
+- [A list of my research](https://weiming-hu.github.io/research/)
 
-- [Parallel Analog Ensemble](https://weiming-hu.github.io/AnalogsEnsemble/)
-- [EITrans: Empirical Inverse Transform Function](https://weiming-hu.github.io/EITrans/)
-- [More Parallel R](https://weiming-hu.github.io/MoreParallelR/)
+### Programming
+
+I have been actively developing and maintaining the following packages and code repositories. They are developed during my current and previous courses of research. Some of them were converted into packages for the broader research community.
+
+- [Parallel Analog Ensemble](https://weiming-hu.github.io/AnalogsEnsemble/) (C++/R)
+- [RAnEnExtra](https://weiming-hu.github.io/RAnEnExtra/) (R)
+- [EITrans: Empirical Inverse Transform Function](https://weiming-hu.github.io/EITrans/) (R)
+- [More Parallel R](https://weiming-hu.github.io/MoreParallelR/) (R)
+- [Solar Photovoltaic Energy Simulator](https://github.com/Weiming-Hu/RenewableSimulator) (Python)
