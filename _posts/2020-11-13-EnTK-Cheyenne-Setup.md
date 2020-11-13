@@ -7,6 +7,15 @@ comments: true
 last_modified_at: 2020-11-13T18:00:00
 ---
 
+* [Introduction](#introduction)
+* [Setting Up](#setting-up)
+    * [Customization](#step-4-customization)
+* [Debugging](#debugging)
+    * [Where To Look](#where-to-look)
+    * [Problem 1](#problem-1)
+    * [Problem 2](#problem-2)
+* [Final Remark](#final-remark)
+
 ## Introduction
 
 ```latex
@@ -85,7 +94,7 @@ radical-pilot-create-static-ve ~/ve.pilot
 
 At this point, we have prepared all the environments needed by EnTK. Step 3 is optional but I highly recommend doing it on Cheyenne. EnTK can automatically create the environment for compute nodes while the job the running but this will take time from your acutal computation. In reality, the Internet connection on Cheyenne compute nodes is very slow. Setting up the environment effectively can take half an hour or even longer. So to save time, we prepare the environment ahead of time for EnTK.
 
-#### Step 4: Customization
+### Step 4: Customization
 
 We need to tell EnTK to use the virtual environment prepared, instead of creating a new one on compute nodes. This can be done by creating a file at `~/.radical/pilot/configs/resource_ncar.json`, and write the following content.
 
