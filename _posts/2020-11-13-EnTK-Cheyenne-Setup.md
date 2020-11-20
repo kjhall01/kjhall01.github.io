@@ -96,7 +96,7 @@ At this point, we have prepared all the environments needed by EnTK. Step 3 is o
 
 ### Step 4: Customization
 
-We need to tell EnTK to use the virtual environment prepared, instead of creating a new one on compute nodes. This can be done by creating a file at `~/.radical/pilot/configs/resource_ncar.json`, and write the following content.
+**Prepare the computing environment ahead of time**. We need to tell EnTK to use the virtual environment prepared, instead of creating a new one on compute nodes. This can be done by creating a file at `~/.radical/pilot/configs/resource_ncar.json`, and write the following content.
 
 ```
 {
@@ -123,17 +123,25 @@ resource-desc:
   schema: 'local'
 ```
 
-To instantiate an `AppManager`, it needs RabbitMQ for message transfer. Please refer to the [documentation](https://radicalentk.readthedocs.io/en/latest/install.html#rabbitmq) for options you have to set up RabbitMQ. What is an `AppManager`, it is explained [here](https://radicalentk.readthedocs.io/en/latest/user_guide/get_started.html#creating-the-appmanager) on what it is and how to create one. But the different is, the documentation creates an `AppManager` to run locally, but we are running on supercomputers. After setting up RabbitMQ, you will have your own set of configurations for `hostname`, `port`, `username`, and `password`.
+**Set up a message database**. To instantiate an `AppManager`, it needs RabbitMQ for message transfer. Please refer to the [documentation](https://radicalentk.readthedocs.io/en/latest/install.html#rabbitmq) for options you have to set up RabbitMQ. What is an `AppManager`, it is explained [here](https://radicalentk.readthedocs.io/en/latest/user_guide/get_started.html#creating-the-appmanager) on what it is and how to create one. But the different is, the documentation creates an `AppManager` to run locally, but we are running on supercomputers. After setting up RabbitMQ, you will have your own set of configurations for `hostname`, `port`, `username`, and `password`.
 
-Point the temporary file directory to scratch folder is also a good practice because EnTK with a verbose level will create a lot of messages. For me, I have the following setting in my `~/.bash_profile`.
+**Set up a temporary folder for logs**. Point the temporary file directory to scratch folder is also a good practice because EnTK with a verbose level will create a lot of messages. For me, I have the following setting in my `~/.bash_profile`.
 
 ```bash
 export TMPDIR=/glade/scratch/<your NCAR account>/tmp
 ```
 
+**Trun off heartbeat**. EnTK uses `pika` to maintain connections. However, session might be terminated if they become too long. I added the following customization into my main python script to specifically turn off heartbeat so that servers will not close any connections unless the client does so.
 
+```python
+import pika
 
-Finally, I usually set the following in my main python script to enable more verbose output.
+# Make sure server does not close any connection unless the client does so
+pika.connection.Parameters.DEFAULT_HEARTBEAT_INTERVAL = 0
+pika.connection.Parameters.DEFAULT_HEARTBEAT_TIMEOUT = 0
+```
+
+Finally, I usually set the following in my main python script to enable verbose output and to log profiling information.
 
 ```python
 # Enable profiling information
