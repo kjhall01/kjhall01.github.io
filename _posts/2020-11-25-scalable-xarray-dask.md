@@ -154,8 +154,6 @@ pip install graphviz    # For generating computation graphs
 
 **It is not recommended to set up your own virtual environment**. I had linking issues during importing modules when using my personal virtual environment with Jupyter notebook. Therefore, I suggest to use the environment prepared by Cheyenne. I plan to submit a ticket on this matter. Please leave a comment if you have similar issues.
 
-[![Submitting requests](https://weiming-hu.github.io/assets/data-for-posts/2020-11-25-scalable/scalable-solution-2.jpg)](https://weiming-hu.github.io/assets/data-for-posts/2020-11-25-scalable/scalable-solution-2.jpg)
-
 ### Interactive Session with NCAR JupyterHub
 
 We then carry on to request interactive jobs from Cheyenne following the steps:
@@ -166,6 +164,8 @@ We then carry on to request interactive jobs from Cheyenne following the steps:
 4. Fill out the job request form. Note my choice of `regular` for the queue type.
 5. Wait until you are redirected to your Jupyter notebook session
 6. Open a notebook with the `Python 3` kernel
+
+[![Submitting requests](https://weiming-hu.github.io/assets/data-for-posts/2020-11-25-scalable/scalable-solution-2.jpg)](https://weiming-hu.github.io/assets/data-for-posts/2020-11-25-scalable/scalable-solution-2.jpg)
 
 There is a second way of setting up a Jupyter notebook server on Cheyenne as illustrated [here](https://www2.cisl.ucar.edu/resources/jupyter-and-ipython) via SSH port forwarding. However, I did not find the integration of `Dask` dashboard with this second approach. So I would recommend using the web-based interface. Another advantage of the web-based interface is that the server is always live until you terminate the server explicitly or the allocationg runs out. This is very helpful when you have mediocre and intermittent internet connection.
 
