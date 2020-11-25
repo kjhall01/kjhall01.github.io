@@ -128,7 +128,7 @@ group: PV_simulation_scenario_00000 {
 
 ### Allocation on Cheyenne
 
-It is assumed that you have an active [allocation on Cheyenne](https://www2.cisl.ucar.edu/user-support/allocations). I will not be using [Casper](https://www2.cisl.ucar.edu/resources/computational-systems/casper), only Cheyenne will be sufficient for the documented solution.
+It is assumed that you have an active [allocation on Cheyenne](https://www2.cisl.ucar.edu/user-support/allocations). I will not be using [Casper](https://www2.cisl.ucar.edu/resources/computational-systems/casper). Cheyenne will be sufficient for the documented solution.
 
 ### Python Kernel for Jupiter Notebook
 
