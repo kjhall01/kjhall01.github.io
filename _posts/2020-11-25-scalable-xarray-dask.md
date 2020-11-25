@@ -295,7 +295,7 @@ ds = xr.open_mfdataset(
 
 At this point, all workers are opening files in parallel in the back-end. If you open *Dask Task Stream* and *Dask Workers*, you will notice some pretty progress bars showing up, as below.
 
-![GUI](https://weiming-hu.github.io/assets/data-for-posts/2020-11-25-scalable/scalable-solution-3.jpg)
+![GUI](https://weiming-hu.github.io/assets/data-for-posts/2020-11-25-scalable/scalable-solution-3.png)
 
 ### Plot in Parallel
 
@@ -319,7 +319,7 @@ plt.colorbar(cbar);
 
 And you will see a figure generated in no time. Also not the progress bars to the right.
 
-![Figure](https://weiming-hu.github.io/assets/data-for-posts/2020-11-25-scalable/scalable-solution-4.jpg)
+![Figure](https://weiming-hu.github.io/assets/data-for-posts/2020-11-25-scalable/scalable-solution-4.png)
 
 ### Computation Graph
 
@@ -334,7 +334,7 @@ dask.visualize(irradiance, filename='computation-graph.svg')
 
 Please click the image to zoom in. In total there are 30 columns corresponding to 30 workers. Each column represents the computation that is going to be carried out at evaluation time, which includes reading, slicing, and calculating the averages.
 
-[![Computation graph](https://weiming-hu.github.io/assets/data-for-posts/2020-11-25-scalable/scalable-solution-5.jpg)](https://weiming-hu.github.io/assets/data-for-posts/2020-11-25-scalable/scalable-solution-5.jpg)
+[![Computation graph](https://weiming-hu.github.io/assets/data-for-posts/2020-11-25-scalable/scalable-solution-5.jpg)](https://weiming-hu.github.io/assets/data-for-posts/2020-11-25-scalable/scalable-solution-5.svg)
 
 ### Termination
 
