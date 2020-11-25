@@ -334,7 +334,7 @@ dask.visualize(irradiance, filename='computation-graph.svg')
 
 Please click the image to zoom in. In total there are 30 columns corresponding to 30 workers. Each column represents the computation that is going to be carried out at evaluation time, which includes reading, slicing, and calculating the averages.
 
-[![Computation graph](https://weiming-hu.github.io/assets/data-for-posts/2020-11-25-scalable/scalable-solution-5.jpg)](https://weiming-hu.github.io/assets/data-for-posts/2020-11-25-scalable/scalable-solution-5.svg)
+[![Computation graph](https://weiming-hu.github.io/assets/data-for-posts/2020-11-25-scalable/scalable-solution-5.svg)](https://weiming-hu.github.io/assets/data-for-posts/2020-11-25-scalable/scalable-solution-5.svg)
 
 ### Termination
 
