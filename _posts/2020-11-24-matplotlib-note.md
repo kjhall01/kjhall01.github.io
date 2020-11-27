@@ -62,6 +62,7 @@ I have compiled the following list of examples for generating figures. Each exam
 3. [An example matploblibrc file](https://matplotlib.org/tutorials/introductory/customizing.html#a-sample-matplotlibrc-file) with customization settings for all kinds of properties. Typically, we can change them by using:
    - `mpl.rcParams['lines.linewidth'] = 2`
    - `mpl.rc('lines', linewidth=4, linestyle='-.')`
+   - `mpl.rc({'size': 22})`
    - `ax.plot([1, 2, 3], [1, 3, 2], linewidth=4)`
    
 4. [Changing properties of axis containers](https://matplotlib.org/tutorials/intermediate/artists.html#sphx-glr-tutorials-intermediate-artists-py) including ticks and labels
