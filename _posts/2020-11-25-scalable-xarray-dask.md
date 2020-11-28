@@ -152,7 +152,7 @@ pip install matplotlib  # For generating scientific plots
 pip install graphviz    # For generating computation graphs
 ```
 
-**It is not recommended to set up your own virtual environment**. I had linking issues during importing modules when using my personal virtual environment with Jupyter notebook. Therefore, I suggest to use the environment prepared by Cheyenne. I plan to submit a ticket on this matter. Please leave a comment if you have similar issues.
+**It is not recommended to set up your own virtual environment with `virtualenv` directly**. I had linking issues during importing modules when using my personal virtual environment with Jupyter notebook. Therefore, I suggest to use the environment prepared by Cheyenne. If you want to have your own environment set up, you need to use `conda`.
 
 ### Interactive Session with NCAR JupyterHub
 
