@@ -59,10 +59,11 @@ I have compiled the following list of examples for generating figures. Each exam
 
 2. [Generating a bar plot](https://matplotlib.org/tutorials/introductory/lifecycle.html#combining-multiple-visualizations) with customizations of the automatic layout, the figure style, the x-axis, figure saving, and combining multiple visualizations
 
-3. [An example matploblibrc file](https://matplotlib.org/tutorials/introductory/customizing.html#a-sample-matplotlibrc-file) with customization settings for all kinds of properties. Typically, we can change them by using:
+3. [An example matplotlibrc file](https://matplotlib.org/tutorials/introductory/customizing.html#a-sample-matplotlibrc-file) with customization settings for all kinds of properties. Typically, we can change them by using the following code. Actually, `mpl.rcParams` is just a dictionary that controls the default aesthetics. Changing its values will change the default setting.
    - `mpl.rcParams['lines.linewidth'] = 2`
+   - `mpl.rcParams.update({'font.size': 22})`
    - `mpl.rc('lines', linewidth=4, linestyle='-.')`
-   - `mpl.rc({'size': 22})`
+   - `mpl.rc('ytick.minor', size=0.33333)`
    - `ax.plot([1, 2, 3], [1, 3, 2], linewidth=4)`
    
 4. [Changing properties of axis containers](https://matplotlib.org/tutorials/intermediate/artists.html#sphx-glr-tutorials-intermediate-artists-py) including ticks and labels
