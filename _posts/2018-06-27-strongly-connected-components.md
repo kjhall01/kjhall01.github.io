@@ -8,6 +8,18 @@ tags: [Research, C++]
 last_modified_at: 2018-06-27T21:13:00
 ---
 
+<!-- vim-markdown-toc GFM -->
+
+* [Introduction](#introduction)
+* [Strongly Connected Components](#strongly-connected-components)
+* [Kosaraju's Algorithm](#kosarajus-algorithm)
+* [Implementation and Optimization](#implementation-and-optimization)
+* [Stack Overflow !!](#stack-overflow-)
+* [Summary](#summary)
+* [References](#references)
+
+<!-- vim-markdown-toc -->
+
 ## Introduction
 
 This post is inspired by the online course, [Graph Search, Shortest Paths, and Data Structures](https://www.coursera.org/learn/algorithms-graphs-data-structures/home/welcome), available from Coursera and Stanford University. We discussed what Strongly Connected Component (SCC) is and how to detect them using Kosaraju's algorithm. One assignment is to implement the algorithm to tackle a large directed graph with over 800,000 nodes and 5,000,000 edges. This post shows how I solve the problem from a naive to the optimized solution.

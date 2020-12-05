@@ -7,6 +7,26 @@ comments: true
 last_modified_at: 2020-11-25T11:00:00
 ---
 
+<!-- vim-markdown-toc GFM -->
+
+* [Introduction](#introduction)
+* [Ensemble Simulation Data](#ensemble-simulation-data)
+* [Environment Setup](#environment-setup)
+    * [Allocation on Cheyenne](#allocation-on-cheyenne)
+    * [Python Kernel for Jupiter Notebook](#python-kernel-for-jupiter-notebook)
+    * [Interactive Session with NCAR JupyterHub](#interactive-session-with-ncar-jupyterhub)
+* [Parallel Processing](#parallel-processing)
+    * [Request Workers](#request-workers)
+    * [Attach Clients](#attach-clients)
+    * [Open Files in Parallel](#open-files-in-parallel)
+    * [Plot in Parallel](#plot-in-parallel)
+    * [Computation Graph](#computation-graph)
+    * [Termination](#termination)
+* [Summary](#summary)
+* [References](#references)
+
+<!-- vim-markdown-toc -->
+
 ## Introduction
 
 ```shell

@@ -7,6 +7,14 @@ comments: true
 last_modified_at: 2019-03-25T11:00:00
 ---
 
+<!-- vim-markdown-toc GFM -->
+
+* [Description](#description)
+* [Caveat](#caveat)
+* [Appendix - vimrc](#appendix---vimrc)
+
+<!-- vim-markdown-toc -->
+
 ## Description
 
 I used to write and execute codes on my laptop. But recently I have been more frequently working with supercomputers and remote servers. HPCs and towers are definitely much powerful than my laptop. Therefore, I would like to have a way to easily program on those plotforms, for example, in R.
