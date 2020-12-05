@@ -3,7 +3,7 @@ layout: post
 title: "Resources for ggplot R"
 excerpt: "A compilation of materials for learning ggplot2 in R"
 comments: true
-tags: [R, ggplot2]
+tags: [R]
 last_modified_at: 2019-07-01T12:00:00
 ---
 

@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "Code Signing GNU GDB on Mac"
+title: "Code Signing GNU GDB on Mac for Debugging C++"
 excerpt: "A small issue with using GNU GDB on Mac"
-tags: [debugging]
+tags: [C++]
 comments: true
 last_modified_at: 2018-03-24T20:00:00
 ---
 
 ## Purpose
 
-Debugging on a Mac machine is definitely not the most pleasant thing to do. I decided to keep a cumulative note here for my experience of code signing [gdb](https://www.gnu.org/software/gdb/) on my Mac machine as tools are constantly changing. And actually it is always hard to find the right suggestion for a specific issue. This would be helpful if you are using a Mac, GDB as your debugger, and some kind of IDE like [NetBeans](https://netbeans.org).
+Debugging C++ code on a Mac machine is definitely not the most pleasant thing to do. I decided to keep a cumulative note here for my experience of code signing [gdb](https://www.gnu.org/software/gdb/) on my Mac machine as tools are constantly changing. And actually it is always hard to find the right suggestion for a specific issue. This would be helpful if you are using a Mac, GDB as your debugger, and some kind of IDE like [NetBeans](https://netbeans.org).
 
 Specifically, my configuration is as follow:
 

@@ -3,7 +3,7 @@ layout: post
 title: "ggplot Example 2"
 excerpt: "Examples of ggplot for geographic maps and spatial objects"
 comments: true
-tags: [R, ggplot2]
+tags: [R]
 last_modified_at: 2019-09-24T22:21:00
 ---
 

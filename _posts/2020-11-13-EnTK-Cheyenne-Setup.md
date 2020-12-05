@@ -2,7 +2,7 @@
 layout: post
 title: "HPC with RADICAL EnTK on NCAR Cheyenne"
 excerpt: "Ensemble toolkit for HPC workflows"
-tags: [HPC]
+tags: [Python, HPC]
 comments: true
 last_modified_at: 2020-11-13T18:00:00
 ---

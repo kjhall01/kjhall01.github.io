@@ -2,7 +2,7 @@
 layout: post
 title: "Matplotlib Study Note"
 excerpt: "Study notes for Matplotlib"
-tags: [Python, matplotlib]
+tags: [Python]
 comments: true
 last_modified_at: 2020-11-24T14:00:00
 ---

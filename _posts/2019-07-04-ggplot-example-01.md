@@ -3,21 +3,21 @@ layout: post
 title: "ggplot Example 1"
 excerpt: "Examples of ggplot for statistical distribution map and rasters"
 comments: true
-tags: [R, ggplot2]
+tags: [R]
 last_modified_at: 2019-07-04T15:53:00
 ---
 
 <!-- vim-markdown-toc GitLab -->
 
-- [Introduction](#introduction)
-- [The Grand Template](#the-grand-template)
-- [Parameter Tunning](#parameter-tunning)
-- [Facetting](#facetting)
-  - [Native Solutions](#native-solutions)
-  - [External Packages](#external-packages)
-- [Plotting Rasters](#plotting-rasters)
-- [References](#references)
-- [To Be Continued](#to-be-continued)
+* [Introduction](#introduction)
+* [The Grand Template](#the-grand-template)
+* [Parameter Tunning](#parameter-tunning)
+* [Facetting](#facetting)
+    * [Native Solutions](#native-solutions)
+    * [External Packages](#external-packages)
+* [Plotting Rasters](#plotting-rasters)
+* [References](#references)
+* [To Be Continued](#to-be-continued)
 
 <!-- vim-markdown-toc -->
 

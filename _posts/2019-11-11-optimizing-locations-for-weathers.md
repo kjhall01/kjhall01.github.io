@@ -5,7 +5,7 @@ research: true
 title: "Optimal Locations in Weather Predictions"
 excerpt: "Using a Genetic Algorithm for Optimal Location Finding in Weather Predictions"
 comments: true
-tags: [research, weather predictions]
+tags: [Research]
 last_modified_at: 2019-11-11T22:21:00
 ---
 
