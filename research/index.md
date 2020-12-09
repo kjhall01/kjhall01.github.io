@@ -89,3 +89,5 @@ I have been actively developing and maintaining the following packages and code 
 - [EITrans: Empirical Inverse Transform Function](https://weiming-hu.github.io/EITrans/) (R)
 - [More Parallel R](https://weiming-hu.github.io/MoreParallelR/) (R)
 
+For more about my technical skills, please see [my posts organized by tags](https://weiming-hu.github.io/tags/).
+
