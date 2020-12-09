@@ -4,6 +4,7 @@ title: "Matplotlib Study Note"
 excerpt: "Study notes for Matplotlib"
 tags: [Python]
 comments: true
+year: 2020
 last_modified_at: 2020-11-24T14:00:00
 ---
 

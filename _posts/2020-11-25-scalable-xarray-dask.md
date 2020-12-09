@@ -4,6 +4,7 @@ title: "Scalable Post-Processing with Dask and xarray"
 excerpt: "Analyze ensemble simulations with Dask and xarray"
 tags: [Python, HPC]
 comments: true
+year: 2020
 last_modified_at: 2020-11-25T11:00:00
 ---
 

@@ -4,6 +4,7 @@ title: "Cartopy Study Notes (on NCAR Cheyenne)"
 excerpt: "Study notes for Cartopy"
 tags: [Python]
 comments: true
+year: 2020
 last_modified_at: 2020-12-01T11:00:00
 ---
 

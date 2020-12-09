@@ -3,6 +3,7 @@ layout: post
 title: "Latex Header Template"
 excerpt: "A convenient header file with a compilation of packages and example usages"
 tags: [Latex]
+year: 2018
 comments: true
 ---
 

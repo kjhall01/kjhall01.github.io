@@ -4,6 +4,7 @@ title: "ggplot Example 1"
 excerpt: "Examples of ggplot for statistical distribution map and rasters"
 comments: true
 tags: [R]
+year: 2019
 last_modified_at: 2019-07-04T15:53:00
 ---
 

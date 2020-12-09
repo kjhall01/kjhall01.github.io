@@ -4,6 +4,7 @@ title: "Resources for ggplot R"
 excerpt: "A compilation of materials for learning ggplot2 in R"
 comments: true
 tags: [R]
+year: 2019
 last_modified_at: 2019-07-01T12:00:00
 ---
 

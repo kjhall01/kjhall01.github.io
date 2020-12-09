@@ -4,6 +4,7 @@ title: "Code Signing GNU GDB on Mac for Debugging C++"
 excerpt: "A small issue with using GNU GDB on Mac"
 tags: [C++]
 comments: true
+year: 2018
 last_modified_at: 2018-03-24T20:00:00
 ---
 
