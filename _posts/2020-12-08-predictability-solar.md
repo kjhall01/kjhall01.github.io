@@ -3,7 +3,7 @@ layout: redirect
 redirect: https://agu2020fallmeeting-agu.ipostersessions.com/Default.aspx?s=FE-D8-F1-1B-BD-5E-9A-7E-DD-B1-BA-7D-0A-EE-17-D0
 research: true
 title: "Predictability Index for Renewable Energy and Uncertainty Quantification with Analog Ensemble"
-excerpt: "Uncertainty quantification of solar photovoltaic energy production with ensemble forecasts and performance system simulations"
+excerpt: Uncertainty quantification of solar photovoltaic energy production with ensemble forecasts and performance system simulations. AGU poster. Publicly available after January 2021.
 comments: false
 tags: [Research, Analog Ensemble]
 year: 2020
