@@ -80,6 +80,8 @@ Here is a curated list of posts that showcase my research and document my resear
 
 ## Programming
 
+[![FSF logog](https://static.fsf.org/nosvn/associate/crm/3092197.png)](https://www.fsf.org/)
+
 I'm passionate in programming and I'm an active contributor to open-source projects and the community.
 
 I have been actively developing and maintaining the following packages and code repositories. They are developed during my current and previous courses of research. Some of them were converted into packages for a broader research community.
