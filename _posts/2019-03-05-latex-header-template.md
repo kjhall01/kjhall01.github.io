@@ -48,7 +48,7 @@ function copyText(region_id) {
 </div>
 
 ```
-% Version number 0.5.1
+% Version number 0.5.2
 % If you have made any changes, please consider also changing
 % https://github.com/Weiming-Hu/Weiming-Hu.github.io/blob/master/_posts/2019-03-05-latex-header-template.md
 %
@@ -326,12 +326,12 @@ function copyText(region_id) {
 % the default behavior using the section key-value-option; e.g.,
 % 
 \usepackage[toc, section=section, acronym]{glossaries}
-\usepackage[toc, section=section]{glossaries}
+% \usepackage[toc, section=section]{glossaries}
 
-%\usepackage{glossaries-extra-stylemods}
-%\usepackage{glossary-longbooktabs}
-%\usepackage{glossaries-extra}
-%\usepackage{glossary-inline}
+% \usepackage{glossaries-extra-stylemods}
+% \usepackage{glossary-longbooktabs}
+% \usepackage{glossaries-extra}
+% \usepackage{glossary-inline}
 \usepackage{glossary-mcols}
 
 % If you are specifying acronym for package glossaries,
@@ -339,7 +339,7 @@ function copyText(region_id) {
 % first used so you do not need to keep track of them.
 %
 \setacronymstyle{long-short}
-%\setabbreviationstyle{long-short}
+% \setabbreviationstyle{long-short}
 
 % Choose a style. You can access all available styles 
 % using the URL for GLossary styles.
