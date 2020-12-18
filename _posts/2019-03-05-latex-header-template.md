@@ -196,7 +196,9 @@ function copyText(region_id) {
 %
 % It is also recommended to include the following packages
 % if you haven't already included them.
-% 
+%
+% \usepackage[utf8]{inputenc}
+% \usepackage{csquotes}
 % \usepackage[english]{babel}
 % 
 % Put the following line before your document environment
