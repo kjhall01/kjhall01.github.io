@@ -16,7 +16,7 @@ comments: false
 ## Certificates
 
 - Graduate Student Online Teaching Certificate. Penn State World Campus. [Link](https://weiming-hu.github.io/assets/pdf/Hu-online-teaching.pdf)
-- Graduate School Teaching Certificate (in progress)
+- Graduate School Teaching Certificate. The Graduate School. [Link](https://weiming-hu.github.io/assets/pdf/Hu-teaching.pdf)
 
 ## Teaching Statement
 
