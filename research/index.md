@@ -33,7 +33,7 @@ comments: false
 
 * [Research Interest](#research-interest)
 * [Ph.D. Dissertation](#phd-dissertation)
-* [Curriculum Vitae](#curriculum-vitae)
+* [More Information](#more-information)
 * [Research Showcase](#research-showcase)
 * [Programming](#programming)
 
@@ -61,9 +61,9 @@ There are several key features of the project:
 3. High-performance computing: The research domain is the continental US with a 12 km spatial resolution and an hourly temporal resolution. This requires computing capabilities from supercomputers.
 
 
-## Curriculum Vitae
+## More Information
 
-Please see my [CV](https://weiming-hu.github.io/assets/pdf/Hu-Weiming-CV.pdf) for more information.
+Please see my [resume](https://weiming-hu.github.io/assets/pdf/Hu-Weiming-resume.pdf) and [CV](https://weiming-hu.github.io/assets/pdf/Hu-Weiming-CV.pdf) for more information.
 
 ## Research Showcase
 
