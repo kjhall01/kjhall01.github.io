@@ -90,7 +90,7 @@ pip install radical.entk
 ##########
 
 # Prepare a second virtual environment for compute nodes
-radical-pilot-create-static-ve ~/ve.pilot
+radical-pilot-create-static-ve -p ~/ve.pilot
 ```
 
 At this point, we have prepared all the environments needed by EnTK. Step 3 is optional but I highly recommend doing it on Cheyenne. EnTK can automatically create the environment for compute nodes while the job the running but this will take time from your acutal computation. In reality, the Internet connection on Cheyenne compute nodes is very slow. Setting up the environment effectively can take half an hour or even longer. So to save time, we prepare the environment ahead of time for EnTK.
