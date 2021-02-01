@@ -209,7 +209,25 @@ Traceback (most recent call last):
 RuntimeError: bridge startup failed
 ```
 
-This is quite unusual. But it did happen to me once. I was not able to reproduce this error after I log out of Cheyenne and log in again. I guess it has something to do the specific session and the connection. If this issue persists after a re-login, you should [open a ticket](https://github.com/radical-cybertools/radical.entk/issues).
+This is probably caused by left over processes. We need to first confirm this by looking for those processes and then terminate them manually.
+
+```bash
+wuh20@cheyenne4:~/github/pv-workflow/02_WeightOptimization> ps -u wuh20 | grep -e python -e rp
+  519 ?        09:36:10 rp.pmgr_launchi
+21919 ?        00:00:07 rp.pmgr_launchi
+27693 ?        10:14:41 rp.pmgr_launchi
+30741 ?        10:13:24 rp.pmgr_launchi
+36305 ?        10:16:11 rp.pmgr_launchi
+46109 ?        09:18:37 rp.pmgr_launchi
+49351 ?        10:24:34 rp.pmgr_launchi
+58516 ?        10:23:10 rp.pmgr_launchi
+58906 ?        09:38:10 rp.pmgr_launchi
+72261 ?        00:00:06 rp.pmgr_launchi
+72596 ?        10:16:12 rp.pmgr_launchi
+wuh20@cheyenne4:~/github/pv-workflow/02_WeightOptimization> pkill -f rp.pmgr_launchi
+wuh20@cheyenne4:~/github/pv-workflow/02_WeightOptimization> ps -u wuh20 | grep -e python -e rp
+wuh20@cheyenne4:~/github/pv-workflow/02_WeightOptimization> 
+```
 
 ## Final Remark
 
