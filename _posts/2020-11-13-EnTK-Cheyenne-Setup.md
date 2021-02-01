@@ -93,6 +93,9 @@ pip install radical.entk
 radical-pilot-create-static-ve -p ~/ve.pilot
 ```
 
+> As on 2021/2/1, I received the error, `ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+requests 2.25.1 requires idna<3,>=2.5, but you have idna 3.1 which is incompatible.`, while creating the static virtual environment. As far as I'm concerned, this won't affect the process.
+
 At this point, we have prepared all the environments needed by EnTK. Step 3 is optional but I highly recommend doing it on Cheyenne. EnTK can automatically create the environment for compute nodes while the job the running but this will take time from your acutal computation. In reality, the Internet connection on Cheyenne compute nodes is very slow. Setting up the environment effectively can take half an hour or even longer. So to save time, we prepare the environment ahead of time for EnTK.
 
 ### Step 4: Customization
@@ -231,5 +234,5 @@ wuh20@cheyenne4:~/github/pv-workflow/02_WeightOptimization>
 
 ## Final Remark
 
-This solution has been tested on November 13, 2020. Feel free to contact me if you have problems.
+This solution has been tested on February 1, 2021. Feel free to contact me if you have problems.
 
