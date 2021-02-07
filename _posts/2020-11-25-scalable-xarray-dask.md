@@ -243,11 +243,15 @@ import distributed
 client = distributed.Client(cluster)
 ```
 
+> As of Feb. 7, 2021, the Dask dashboard on Cheyenne seems to have issues with displaying. I have opened a ticket about it and let's see how it goes.
+
 ### Open Files in Parallel
 
 Finally, let's open NetCDF files in parallel.
 
 Normally, you would just need `xarray.open_mfdataset` as it opens and merges multiple NetCDF files, and returns a pretty HTML representation of the data structure. However, this post shows how to read NetCDF files generated from by [PAnEn](https://weiming-hu.github.io/AnalogsEnsemble/) specifically. In order to successfully merge multiple files, we need to define a preprocess function as follows. **Feel free to skip this function if you are reading your own data**.
+
+> The following functions have been migrated to [PyAnEn](https://github.com/Weiming-Hu/PyAnEn). Please check it out.
 
 ```python
 import re
