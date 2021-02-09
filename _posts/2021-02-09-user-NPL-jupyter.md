@@ -84,6 +84,7 @@ print(distributed.__version__)    # 2.3.2
 print(dask_jobqueue.__version__)  # 0.6.3
 print(tornado.version)            # 6.0.3
 print(bokeh.__version__)          # 1.3.4
+print(msgpack.__version__)        # 0.6.1
 ```
 
 `venv_Jupyter` had the following configuration.
@@ -93,6 +94,7 @@ print(distributed.__version__)    # 2020.12.0
 print(dask_jobqueue.__version__)  # 0.7.2
 print(tornado.version)            # 6.1
 print(bokeh.__version__)          # 2.2.3
+print(msgpack.__version__)        # 1.0.2
 ```
 
 Our next step is to install version specific modules into `venv_Jupyter`.
@@ -104,7 +106,12 @@ module load ncarenv gnu/9.1.0 ncarcompilers python/3.7.9
 ncar_pylib venv_Jupyter
 
 # Install version specific modules
-pip install --no-cache-dir distributed==2.3.2 dask_jobqueue==0.6.3 tornado==6.0.3 bokeh==1.3.4
+pip install --no-cache-dir \
+  distributed==2.3.2 \
+  dask_jobqueue==0.6.3 \
+  tornado==6.0.3 \
+  bokeh==1.3.4 \
+  msgpack==0.6.1
 ```
 
 ## Issues
