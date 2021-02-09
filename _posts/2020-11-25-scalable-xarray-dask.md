@@ -173,7 +173,7 @@ pip install matplotlib  # For generating scientific plots
 pip install graphviz    # For generating computation graphs
 ```
 
-**It is not recommended to set up your own virtual environment with `virtualenv` directly**. I had linking issues during importing modules when using my personal virtual environment with Jupyter notebook. Therefore, I suggest to use the environment prepared by Cheyenne. If you want to have your own environment set up, you need to use `conda`.
+> To prepare an environment in user space, this approach might no longer work. Please see my more recent post on this matter [here](https://weiming-hu.github.io/user-NPL-jupyter/).
 
 ### Interactive Session with NCAR JupyterHub
 
@@ -184,7 +184,7 @@ We then carry on to request interactive jobs from Cheyenne following the steps:
 3. Sign in and select *Launch Server*
 4. Fill out the job request form. Note my choice of `regular` for the queue type.
 5. Wait until you are redirected to your Jupyter notebook session
-6. Open a notebook with the `Python 3` kernel
+6. Open a notebook with the `Python 3` kernel (*If you set up your own kernel, feel free to choose your own kernel.*)
 
 [![Submitting requests](https://weiming-hu.github.io/assets/data-for-posts/2020-11-25-scalable/scalable-solution-2.jpg)](https://weiming-hu.github.io/assets/data-for-posts/2020-11-25-scalable/scalable-solution-2.jpg)
 

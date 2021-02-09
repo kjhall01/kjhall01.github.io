@@ -26,6 +26,8 @@ last_modified_at: 2020-12-01T11:00:00
 
 Since I'm using `cartopy` on supercomputers, I usually do not have root access for installation. I need to make sure everything I do is within my user space.
 
+> To prepare an environment in user space, this approach might no longer work. Please see my more recent post on this matter [here](https://weiming-hu.github.io/user-NPL-jupyter/).
+
 ```shell
 module load python
 
