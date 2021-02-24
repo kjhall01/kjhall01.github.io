@@ -17,6 +17,8 @@ This posts documented how I created a user clone of NCAR package library (NPL) f
 
 Most of the steps are already documented [here](https://www2.cisl.ucar.edu/resources/python-%E2%80%93-ncar-package-library#clone). But JupyterHub environment was probably built with a different setup with the cloned NPL package. So there are extra steps to make sure the same version sare installed.
 
+> This post was last tested on Feb. 24, 2021.
+
 ## Clone NPL
 
 ```bash
