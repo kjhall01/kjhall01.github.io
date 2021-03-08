@@ -424,7 +424,7 @@ function copyText(region_id) {
 \newacronym{ADAM}{ADAM}{Adaptive Moment Estimation}
 \newacronym{AI}{AI}{Artificial Intelligence}
 \newacronym{AnEn}{AnEn}{Analog Ensemble}
-\newacronym{ANN}{ANN}{Artifitial Neural Network}
+\newacronym{ANN}{ANN}{Artificial Neural Network}
 \newacronym{API}{API}{Application Programming Interface}
 \newacronym{ASOS}{ASOS}{Automated Surface Observing System}
 \newacronym{ATSDR}{ATSDR}{Agency for Toxic Substances and Diseases Registry}
