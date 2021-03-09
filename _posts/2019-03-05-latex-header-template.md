@@ -48,7 +48,7 @@ function copyText(region_id) {
 </div>
 
 ```
-% Version number 0.5.2
+% Version number 0.5.3
 % If you have made any changes, please consider also changing
 % https://github.com/Weiming-Hu/Weiming-Hu.github.io/blob/master/_posts/2019-03-05-latex-header-template.md
 %
@@ -120,7 +120,7 @@ function copyText(region_id) {
 \usepackage[hyphens]{url}
 
 % For tagged hyper-links
-\usepackage[bookmarks, breaklinks, pdfauthor={Weiming Hu}, unicode=true]{hyperref}
+\usepackage[bookmarks, breaklinks, hidelinks, pdfauthor={Weiming Hu}, unicode=true]{hyperref}
 
 % For typesetting pseudo code
 \usepackage{algorithm}
