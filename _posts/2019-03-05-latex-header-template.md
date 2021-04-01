@@ -48,7 +48,19 @@ function copyText(region_id) {
 </div>
 
 ```
-% Version number 0.5.3
+% Version number 0.5.4
+% 
+%              ******** READ ME ********
+% 
+% Thank you for considering using this latex header file.
+% I suggest that you first comment EVERYTHING and then decide,
+% for each line, whether it is needed or not.
+% 
+% Changes are you will be using a template, and I don't want
+% my configuration to overwrite the template.
+% 
+%           ******** End of READ ME ********
+% 
 % If you have made any changes, please consider also changing
 % https://github.com/Weiming-Hu/Weiming-Hu.github.io/blob/master/_posts/2019-03-05-latex-header-template.md
 %
@@ -166,6 +178,9 @@ function copyText(region_id) {
 % 
 % \appendix
 % 
+
+% Balance columns at the end of the document
+% \usepackage{flushend}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
