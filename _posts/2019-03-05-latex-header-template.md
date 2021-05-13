@@ -48,7 +48,7 @@ function copyText(region_id) {
 </div>
 
 ```
-% Version number 0.5.4
+% Version number 0.6.0
 % 
 %              ******** READ ME ********
 % 
@@ -132,17 +132,17 @@ function copyText(region_id) {
 \usepackage[hyphens]{url}
 
 % For tagged hyper-links
-\usepackage[bookmarks, breaklinks, hidelinks, pdfauthor={Weiming Hu}, unicode=true]{hyperref}
+\usepackage{hyperref}
 
 % For typesetting pseudo code
 \usepackage{algorithm}
 \usepackage[noend]{algpseudocode}
 
 % Set up link format
-\hypersetup{linkcolor=blue,citecolor=blue,filecolor=black}
+\hypersetup{colorlinks, linkcolor=black, citecolor=black, filecolor=black, urlcolor=blue}
 
-% To change the layout and margins to A4 paper layout
-\usepackage[a4paper, total={6.5in, 9in}]{geometry}
+% To adjust the margin if the default is not what you want
+% \usepackage[total={6.5in, 9in}]{geometry}
 
 % For nested itemized environment
 \usepackage{outlines}
@@ -386,6 +386,10 @@ function copyText(region_id) {
 \newcommand*{\Alg}[1]{Algorithm~\ref{#1}}
 \newcommand*{\App}[1]{Appendix~\ref{#1}}
 
+% Use these commands if you are referencing sub figures
+\newcommand*{\SubFig}[2]{Figure~\ref{#1}#2}
+\newcommand*{\SubFigs}[2]{Figures~\ref{#1}#2}
+
 % Commands for providing notes, comments, ...
 \newcommand*{\weimingNote}[1]{\textbf{\textcolor{red}{#1}}}
 
@@ -431,6 +435,21 @@ function copyText(region_id) {
 % LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 % OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 % SOFTWARE.
+
+%%%%%%%%%%%%%%%%  READ ME %%%%%%%%%%%%%%%%%%%%%
+% Regular definition
+% 
+% \newacronym{AnEn}{AnEn}{Analog Ensemble}
+% 
+% Detailed definition with a specific plural form
+% 
+% \newacronym[\glslongpluralkey={Analog Ensembles},
+%             \glsshortpluralkey={AnEns}]
+%             {AnEn}{AnEn}{Analog Ensemble}
+%
+% Then in your tex file, use \glspl{AnEn} to print the corresponding plural form.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                Acronyms                                  %
