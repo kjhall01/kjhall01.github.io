@@ -48,7 +48,7 @@ function copyText(region_id) {
 </div>
 
 ```
-% Version number 0.6.0
+% Version number 0.6.1
 % 
 %              ******** READ ME ********
 % 
@@ -132,7 +132,11 @@ function copyText(region_id) {
 \usepackage[hyphens]{url}
 
 % For tagged hyper-links
-\usepackage{hyperref}
+%
+% `hidelinks` is optional. It removes the boxes around links,
+% making them appearing as normal texts but clickable.
+%
+\usepackage[hidelinks]{hyperref}
 
 % For typesetting pseudo code
 \usepackage{algorithm}
