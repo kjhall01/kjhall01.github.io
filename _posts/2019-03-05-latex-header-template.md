@@ -48,7 +48,7 @@ function copyText(region_id) {
 </div>
 
 ```
-% Version number 0.6.1
+% Version number 0.6.2
 % 
 %              ******** READ ME ********
 % 
@@ -143,7 +143,7 @@ function copyText(region_id) {
 \usepackage[noend]{algpseudocode}
 
 % Set up link format
-\hypersetup{colorlinks, linkcolor=black, citecolor=black, filecolor=black, urlcolor=blue}
+% \hypersetup{colorlinks, linkcolor=black, citecolor=black, filecolor=black, urlcolor=blue}
 
 % To adjust the margin if the default is not what you want
 % \usepackage[total={6.5in, 9in}]{geometry}
@@ -395,7 +395,7 @@ function copyText(region_id) {
 \newcommand*{\SubFigs}[2]{Figures~\ref{#1}#2}
 
 % Commands for providing notes, comments, ...
-\newcommand*{\weimingNote}[1]{\textbf{\textcolor{red}{#1}}}
+\newcommand*{\WeimingNote}[1]{\textbf{\textcolor{red}{#1}}}
 
 % Commands for texts
 \newcommand*{\elnino}{El Ni\~no }
