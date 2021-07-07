@@ -41,7 +41,7 @@ comments: false
 
 ## Research Interest
 
-I'm a Ph.D. Candidate in Geography under the supervision of [Dr. Guido Cervone](https://www.geog.psu.edu/directory/guido-cervone) in the [Geoinformatics and Earth Observation Laboratory](http://geoinf.psu.edu/).
+I received my Ph.D. in Geography under the supervision of [Dr. Guido Cervone](https://www.geog.psu.edu/directory/guido-cervone) in the [Geoinformatics and Earth Observation Laboratory](http://geoinf.psu.edu/), [Penn State University](https://www.psu.edu/).
 
 Below is a list of my research keywords:
 
@@ -52,7 +52,7 @@ Below is a list of my research keywords:
 
 ## Ph.D. Dissertation
 
-My Ph.D. thesis title is *Uncertainty Quantification for Photovoltaic Energy Production Using Analog Ensemble*. I'm investigating the predictability of photovoltaic solar energy production over the Continental US. The uncertainty of solar energy production not only originates from the variation of solar irradiance, but also other weather conditions, including wind speed and ambient temperature, together with the configuration of the particular energy performance system. I'm using [Analog Ensemble](https://weiming-hu.github.io/AnalogsEnsemble) to study the spatial and temporal predictability of photovoltaic solar energy generation.
+My dissertation title is *Uncertainty Quantification for Photovoltaic Energy Production Using Analog Ensemble*. I'm investigating the predictability of photovoltaic solar energy production over the Continental US. The uncertainty of solar energy production not only originates from the variation of solar irradiance, but also other weather conditions, including wind speed and ambient temperature, together with the configuration of the particular energy performance system. I'm using [Analog Ensemble](https://weiming-hu.github.io/AnalogsEnsemble) to study the spatial and temporal predictability of photovoltaic solar energy generation.
 
 There are several key features of the project:
 
