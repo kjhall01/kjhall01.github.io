@@ -90,7 +90,9 @@ pip install radical.entk
 ##########
 
 # Prepare a second virtual environment for compute nodes
-radical-pilot-create-static-ve -p ~/ve.pilot
+# -d installs default modules.
+#
+radical-pilot-create-static-ve -p ~/ve.pilot -d
 ```
 
 > As on 2021/2/1, I received the error, `ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
