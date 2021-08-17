@@ -33,19 +33,18 @@ function copyText(region_id) {
 </div>
 
 ```
-# "`-''-/").___..--''"`-._
-#  (`6_ 6  )   `-.  (     ).`-.__.`)   WE ARE ...
-#  (_Y_.)'  ._   )  `._ `. ``-..-'    PENN STATE!
-#    _ ..`--'_..-_/  /--'_.' ,'
-#  (il),-''  (li),'  ((!.-'
-# 
-# Author: Weiming Hu <weiming@psu.edu>
-#
-#         Geoinformatics and Earth Observation Laboratory (http://geolab.psu.edu)
-#         Department of Geography and Institute for Computational and Data Sciences
-#         The Pennsylvania State University
-#
-# Date of Creation: 2021/01/01
+##########################################################
+# Author: Weiming Hu <weh012@ucsd.edu>                   #
+#                                                        #
+#         Center for Western Weather and Water Extremes  #
+#         Scripps Institution of Oceanography            #
+#         UC San Diego                                   #
+#                                                        #
+#         https://weiming-hu.github.io/                  #
+#         https://cw3e.ucsd.edu/                         #
+#                                                        #
+# Date of Creation: 2021/01/01                           #
+##########################################################
 #
 # [Summary of the source code file]
 ```
