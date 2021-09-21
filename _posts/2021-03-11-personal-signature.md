@@ -2,7 +2,7 @@
 layout: post
 title: "Personal Code Signature"
 excerpt: "Source code header"
-tags: [R]
+tags: [Template]
 comments: false
 year: 2021
 last_modified_at: 2021-03-11T12:00:00
@@ -10,7 +10,7 @@ last_modified_at: 2021-03-11T12:00:00
 
 <link rel="stylesheet" href="https://formden.com/static/assets/demos/bootstrap-iso/bootstrap-iso/bootstrap-iso.css">
 
-I post below my most recent template for source code header signature for my own convenience.
+I posted here my template for source code header signature.
 
 <script>
 function copyText(region_id) {
@@ -33,18 +33,18 @@ function copyText(region_id) {
 </div>
 
 ```
-##########################################################
-# Author: Weiming Hu <weh012@ucsd.edu>                   #
-#                                                        #
-#         Center for Western Weather and Water Extremes  #
-#         Scripps Institution of Oceanography            #
-#         UC San Diego                                   #
-#                                                        #
-#         https://weiming-hu.github.io/                  #
-#         https://cw3e.ucsd.edu/                         #
-#                                                        #
-# Date of Creation: 2021/01/01                           #
-##########################################################
+#############################################################
+# Author: Weiming Hu <weiminghu@ucsd.edu>                   #
+#                                                           #
+#         Center for Western Weather and Water Extremes     #
+#         Scripps Institution of Oceanography               #
+#         UC San Diego                                      #
+#                                                           #
+#         https://weiming-hu.github.io/                     #
+#         https://cw3e.ucsd.edu/                            #
+#                                                           #
+# Date of Creation: 2021/01/01                              #
+#############################################################
 #
 # [Summary of the source code file]
 ```
