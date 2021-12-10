@@ -2,7 +2,7 @@
 layout: post
 title: "Scholarly Poster Guidelines"
 excerpt: "My curated list of guidelines for making scholarly posters"
-tags: [Research]
+tags: [Template]
 comments: true
 year: 2021
 last_modified_at: 2021-09-03T10:00:00
