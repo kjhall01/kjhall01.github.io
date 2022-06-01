@@ -5,7 +5,7 @@ excerpt: "Using Extreme Learning Machine-based methods to predict subseasonal-to
 comments: true
 tags: [Climate, XCast]
 year: 2022
-last_modified_at: 2022-06-01T21:37:10
+last_modified_at: 2022-03-01T21:37:10
 ---
 
 # Probabilistic Subseasonal-To-Seasonal (S2S) Precipitation Forecasts for South Asia
