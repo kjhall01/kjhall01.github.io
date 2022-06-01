@@ -1,6 +1,6 @@
 # Site
-title:              'Weiming Hu'
-bio:                'Ph.D. in Geography and Computer Science'
+title:              'Kyle Joseph Chen Hall'
+bio:                'Climate Data Scientist & Software Engineer'
 description:        "Specialized in GIScience, AI, and HPC"
 reading_time:       true
 words_per_minute:   200
@@ -8,7 +8,7 @@ logo:               'assets/img/logo.jpg'
 background:         'assets/img/background.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                https://weiming-hu.github.io
+url:                https://kjhall01.github.io
 
 # Jekyll
 permalink:          /:title/
@@ -26,25 +26,25 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   weiming-hu
+disqus_shortname:   kjhall01
 
 # Social
 # if you don't have any of social below, comment the line.
 google:
   #plus:            #username
-  analytics:        UA-116139459-1
+  analytics:        G-F3TWC5MD7V
   #verify:
   #ad-client:
   #ad-slot:
 
-scholar:            https://scholar.google.com/citations?user=2xypOLMAAAAJ
-researchgate:       https://www.researchgate.net/profile/Weiming_Hu5
-linkedin:           weiming-hu-607995117
-github-url:         Weiming-Hu
-gitlab:             https://gitlab.com/Weiming-Hu
-soundcloud:         weiminggroove
+scholar:            https://scholar.google.com/citations?user=4_oadkQAAAAJ
+#researchgate:       https://www.researchgate.net/profile/Weiming_Hu5
+linkedin:           kjhall01
+github-url:         kjhall01
+#gitlab:             https://gitlab.com/Weiming-Hu
+#soundcloud:         weiminggroove
 
-#orcid:              https://orcid.org/0000-0003-4501-1435
+orcid:              https://orcid.org/0000-0003-3723-0662
 #facebook:           gavin.hu.9887
 #youtube-channel:   
 #bing-verify:
