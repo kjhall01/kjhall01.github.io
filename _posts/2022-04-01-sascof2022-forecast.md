@@ -1,5 +1,13 @@
 
-
+---
+layout: post
+title: "SASCOF 2022"
+excerpt: "Experimental ELM-based Probabilistic Seasonal Precipitation Forecast for the South Asian Seasonal Climate Outlook Forum"
+comments: true
+tags: [Climate, XCast]
+year: 2022
+last_modified_at: 2022-04-01T21:37:10
+---
 
 # SASCOF 2022: Seasonal Forecasts of Summer Monsoon Rainfall with Extreme Learning Machine 
 ### By Nachiketa Acharya & Kyle Hall
