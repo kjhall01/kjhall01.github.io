@@ -25,7 +25,7 @@ comments: false
 </style>
 </head>
 
-<img src="https://kjhall01.github.io/assets/img/IMG_4130.jpg" alt="Kyle Hall" style="width:400px !important">
+<img src="https://kjhall01.github.io/assets/img/IMG_4130.jpeg" alt="Kyle Hall" style="width:400px !important">
 
 ## Research Interest
 
