@@ -3,7 +3,7 @@ layout: post
 title: "Probabilistic Subseasonal-To-Seasonal (S2S) Precipitation Forecasts for South Asia"
 excerpt: "Using Extreme Learning Machine-based methods to predict subseasonal-to-seasonal rainfall during the summer monsoon season"
 comments: true
-tags: [Research, Climate, XCast, South Asia]
+tags: [Climate, XCast]
 year: 2022
 last_modified_at: 2022-05-31T21:37:10
 ---
