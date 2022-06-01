@@ -2,7 +2,7 @@
 layout: page
 title: Research
 tags: [research]
-date: 2020-11-10
+date: 2022-05-31
 comments: false
 ---
 
@@ -25,45 +25,19 @@ comments: false
 </style>
 </head>
 
-<img src="https://weiming-hu.github.io/assets/img/logo.jpg" alt="Weiming Hu" style="width:400px !important">
-
-## Table of Content
-
-<!-- vim-markdown-toc GFM -->
-
-* [Research Interest](#research-interest)
-* [Ph.D. Dissertation](#phd-dissertation)
-* [More Information](#more-information)
-* [Research Showcase](#research-showcase)
-* [Programming](#programming)
-
-<!-- vim-markdown-toc -->
+<img src="https://kjhall01.github.io/assets/img/IMG_4130.jpg" alt="Kyle Hall" style="width:400px !important">
 
 ## Research Interest
 
-I received my Ph.D. in Geography under the supervision of [Dr. Guido Cervone](https://www.geog.psu.edu/directory/guido-cervone) in the [Geoinformatics and Earth Observation Laboratory](http://geoinf.psu.edu/), [Penn State University](https://www.psu.edu/).
+I am a climate data scientist seeking to increase society’s resilience against climate change and climate variability by contributing to the improvement of quantitative climate forecasting and climate modeling. I received my M.A. in Climate & Society at Columbia University with the International Research Institute for Climate & Society, and my B.S. in Computer Science at the College of William & Mary, specializing in AI/ML and data science methods.
 
-Below is a list of my research keywords:
+Research Keywords:
 
-- Ensemble Weather Forecasting
-- Uncertainty Quantification of Renewable Energy
+- Geospatial Data Science 
 - Artificial Intelligence
 - High Performance Computing
-
-## Ph.D. Dissertation
-
-My dissertation title is *Uncertainty Quantification for Photovoltaic Energy Production Using Analog Ensemble*. I'm investigating the predictability of photovoltaic solar energy production over the Continental US. The uncertainty of solar energy production not only originates from the variation of solar irradiance, but also other weather conditions, including wind speed and ambient temperature, together with the configuration of the particular energy performance system. I'm using [Analog Ensemble](https://weiming-hu.github.io/AnalogsEnsemble) to study the spatial and temporal predictability of photovoltaic solar energy generation.
-
-There are several key features of the project:
-
-1. The evaluation of uncertainty via ensembles: Analog Ensemble is used to generate ensembles from a deterministic model and then ensembles are used for uncertainty evaluation.
-2. Coupled power simulation system: The weather forecast system has been coupled with a solar power performance system to study the predictability of the power generation.
-3. High-performance computing: The research domain is the continental US with a 12 km spatial resolution and an hourly temporal resolution. This requires computing capabilities from supercomputers.
-
-
-## More Information
-
-Please see my [resume](https://weiming-hu.github.io/assets/pdf/Hu-Weiming-resume.pdf) and [CV](https://weiming-hu.github.io/assets/pdf/Hu-Weiming-CV.pdf) for more information.
+- Machine Learning 
+- Climate Forecasting
 
 ## Research Showcase
 
@@ -78,19 +52,6 @@ Here is a curated list of posts that showcase my research and document my resear
 <br>
 {% endif %}{% endfor %}
 
-## Programming
 
-[![FSF logog](https://static.fsf.org/nosvn/associate/crm/3092197.png)](https://www.fsf.org/)
 
-I'm passionate in programming and I'm an active contributor to open-source projects and the community.
-
-I have been actively developing and maintaining the following packages and code repositories. They are developed during my current and previous courses of research. Some of them were converted into packages for a broader research community.
-
-- [Parallel Analog Ensemble](https://weiming-hu.github.io/AnalogsEnsemble/) (C++/R)
-- [RAnEnExtra](https://weiming-hu.github.io/RAnEnExtra/) (R)
-- [Solar Photovoltaic Energy Simulator](https://github.com/Weiming-Hu/RenewableSimulator) (Python)
-- [EITrans: Empirical Inverse Transform Function](https://weiming-hu.github.io/EITrans/) (R)
-- [More Parallel R](https://weiming-hu.github.io/MoreParallelR/) (R)
-
-For more about my technical skills, please see [my posts organized by tags](https://weiming-hu.github.io/tags/).
 
