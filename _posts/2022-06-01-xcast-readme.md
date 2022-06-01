@@ -22,16 +22,6 @@ last_modified_at: 2022-06-01T21:37:15
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-[![DOI](https://zenodo.org/badge/386326352.svg)](https://zenodo.org/badge/latestdoi/386326352)
-
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -39,9 +29,7 @@ last_modified_at: 2022-06-01T21:37:15
   <a href="https://github.com/kjhall01/xcast/">
     <img src="https://raw.githubusercontent.com/kjhall01/xcast/main/images/XCastLogo.png" alt="Logo" width="200" height="200">
   </a>
-
   <h3 align="center">XCast: A Gridpoint-Wise Statistical Modeling Library for the Earth Sciences </h3>
-  
   XCast is a free and open source (passion) project by Kyle Hall & Nachiketa Acharya,  designed  to help Earth Scientists scale single-point-in-space regression approaches to spatial gridded data using the popular Earth Science data tool, Xarray. XCast is designed to be high-performance, intuitive, and easily extensible. It is our hope that XCast will serve to bridge the gap between the two-dimensional world of Python Data Science (Samples x Features), and the four-dimensional world of climate data (Samples x Features x Latitude x Longitude).
     <br />
     <a href="https://kjhall01.github.io/xcast/"><strong>Explore the docs (Our Website) »</strong></a>
@@ -81,6 +69,26 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 Email: kjhall@iri.columbia.edu (This is a side project, so it may take a while to get back to you)
+
+[![Contributors][contributors-shield]][contributors-url]
+
+
+[![Forks][forks-shield]][forks-url]
+
+
+[![Stargazers][stars-shield]][stars-url]
+
+
+[![Issues][issues-shield]][issues-url]
+
+
+[![MIT License][license-shield]][license-url]
+
+
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+
+[![DOI](https://zenodo.org/badge/386326352.svg)](https://zenodo.org/badge/latestdoi/386326352)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
