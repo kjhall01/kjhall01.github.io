@@ -27,9 +27,11 @@ comments: false
 
 <img src="https://kjhall01.github.io/assets/img/IMG_4130.jpeg" alt="Kyle Hall" style="width:400px !important">
 
-## Research Interest
+## Research & Development Goals
 
-I am a climate data scientist seeking to increase society’s resilience against climate change and climate variability by contributing to the improvement of quantitative climate forecasting and climate modeling. I received my M.A. in Climate & Society at Columbia University with the International Research Institute for Climate & Society, and my B.S. in Computer Science at the College of William & Mary, specializing in AI/ML and data science methods.
+I am seeking to increase society’s resilience against climate change and climate variability by contributing to the improvement of quantitative climate forecasting and climate modeling. I received my M.A. in Climate & Society at Columbia University with the International Research Institute for Climate & Society, and my B.S. in Computer Science at the College of William & Mary, specializing in AI/ML and data science methods.
+
+Currently, I am focusing on Python Climate Forecasting tools, including [XCast](https://kjhall01.github.io/xcast) and [PyCPT](https://github.com/kjhall-iri/pycpt). I have spent the last three years working to develop these two libraries and trying to enhance the compatibility of traditional climate forecasting tools like IRI's Climate Predictability Tool with the Python data science ecosystem. I want to make it easier to use state-of-the-art machine learning methods for statistical bias correction and climate forecasting, and to compare them with established climate forecasting tools. I believe that higher-quality, easier-to-produce climate forecasts will help stakeholders adapt to a changing climate. 
 
 Research Keywords:
 
@@ -39,18 +41,6 @@ Research Keywords:
 - Machine Learning 
 - Climate Forecasting
 
-## Research Showcase
-
-Here is a curated list of posts that showcase my research and document my research experiences. The summary of the research project is followed by an excerpt. Comments are well welcome.
-
-{% capture this_word %}Research{% endcapture %}
-{% for post in site.tags[this_word] %}{% if post.title != null %}
-<div class="card" onclick="location.href='{{ site.url }}{{ post.url }}';"><div class="mycontainer">
-<h4>[<em>{{ post.year }}</em>] <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h4>
-<p><em>Excerpt: {{ post.excerpt }}</em></p>
-</div></div>
-<br>
-{% endif %}{% endfor %}
 
 
 
