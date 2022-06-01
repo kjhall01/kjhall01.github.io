@@ -24,7 +24,7 @@ comments: false
 </style>
 </head>
 
-<img src="https://kjhall01.github.io/assets/img/IMG_4130.jpeg" class="img-circle zoombtn animated rotateIn" alt="Kyle Hall" style="width:400px !important">
+<img src="https://kjhall01.github.io/assets/img/IMG_4130.jpeg" class="img-circle zoombtn animated rotateIn" alt="Kyle Hall" style="width:200px height:200px  !important">
 
 ## Who Am I? (as a professional)
 
