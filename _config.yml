@@ -30,9 +30,7 @@ disqus_shortname:   kjhall01
 
 # Social
 # if you don't have any of social below, comment the line.
-google:
-  #plus:            #username
-  analytics:        G-F3TWC5MD7V
+google-analytics: G-F3TWC5MD7V
   #verify:
   #ad-client:
   #ad-slot:
